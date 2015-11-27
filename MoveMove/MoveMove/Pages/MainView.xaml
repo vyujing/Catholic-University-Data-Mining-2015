@@ -6,27 +6,34 @@
              xmlns:mui="http://firstfloorsoftware.com/ModernUI"
              mc:Ignorable="d" Width="725.101" Height="325.101">
 
-    <Grid Style="{StaticResource ContentRoot}">
-        <Label Content="Director :" HorizontalAlignment="Left" Height="22" Margin="12,30,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="143,30,0,0" VerticalAlignment="Top" Width="193" Name="directorCbox"/>
-        <Label Content="Season :" HorizontalAlignment="Left" Margin="12,57,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.894,1.128"/>
-        <ComboBox HorizontalAlignment="Left" Margin="143,58,0,0" VerticalAlignment="Top" Width="193" Name="seasonCbox"/>
-        <Label Content="Production Company :" HorizontalAlignment="Left" Margin="12,85,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="143,85,0,0" VerticalAlignment="Top" Width="193" Name="productionCompanyCbox"/>
-        <Label Content="Genre :" HorizontalAlignment="Left" Margin="12,112,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="143,112,0,0" VerticalAlignment="Top" Width="193" Name="genreCbox"/>
-        <Label Content="Grade :" HorizontalAlignment="Left" Margin="12,139,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="143,139,0,0" VerticalAlignment="Top" Width="193" Name="gradeCbox"/>
-        <Label Content="Distributor :" HorizontalAlignment="Left" Margin="12,167,0,0" VerticalAlignment="Top"/>
-        <ComboBox HorizontalAlignment="Left" Margin="143,167,0,0" VerticalAlignment="Top" Width="193" Name="distributorCbox"/>
-        <Label Content="Machine Learning Algorithm :" HorizontalAlignment="Left" Margin="12,204,0,0" VerticalAlignment="Top"/>
-        <RadioButton Content="One Rule" HorizontalAlignment="Left" Margin="12,225,0,0" VerticalAlignment="Top" GroupName="mlAlgo" Name="oneRuleRbtn"/>
-        <RadioButton Content="Covering Algorithm" HorizontalAlignment="Left" Margin="129,225,0,0" VerticalAlignment="Top" GroupName="mlAlgo" Name="coveringAlgoRbtn"/>
-        <RadioButton Content="Decision Tree" HorizontalAlignment="Left" Margin="12,247,0,0" VerticalAlignment="Top" GroupName="mlAlgo" Name="dicisionTreeRbtn"/>
-        <RadioButton Content="Naive Baysian" HorizontalAlignment="Left" Margin="129,247,0,0" VerticalAlignment="Top" GroupName="mlAlgo" Name="naiveBaysianRbtn"/>
-        <GroupBox Header="Result" HorizontalAlignment="Left" Margin="362,29,0,0" VerticalAlignment="Top" Height="213" Width="305"/>
-        <Label Content="Result나올라벨" HorizontalAlignment="Left" Margin="386,67,0,0" VerticalAlignment="Top" Name="resultLbl"/>
-        <Label Content="Accuracy : " HorizontalAlignment="Left" Margin="366,248,0,0" VerticalAlignment="Top"/>
-        
+    <Grid Style="{StaticResource ContentRoot}" Margin="16,-30,16,74">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="97*"/>
+            <ColumnDefinition Width="566*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Director :" HorizontalAlignment="Left" Height="22" Margin="12,30,0,0" VerticalAlignment="Top" Grid.ColumnSpan="4"/>
+        <ComboBox HorizontalAlignment="Left" Margin="16,30,0,0" VerticalAlignment="Top" Width="193" Name="directorCbox" Grid.Column="4"/>
+        <Label Content="Season :" HorizontalAlignment="Left" Margin="12,57,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.894,1.128" Grid.ColumnSpan="4"/>
+        <ComboBox HorizontalAlignment="Left" Margin="16,58,0,0" VerticalAlignment="Top" Width="193" Name="seasonCbox" Grid.Column="4"/>
+        <Label Content="Production Company :" HorizontalAlignment="Left" Margin="12,85,0,0" VerticalAlignment="Top" Grid.ColumnSpan="5"/>
+        <ComboBox HorizontalAlignment="Left" Margin="16,85,0,0" VerticalAlignment="Top" Width="193" Name="productionCompanyCbox" Grid.Column="4"/>
+        <Label Content="Genre :" HorizontalAlignment="Left" Margin="12,112,0,0" VerticalAlignment="Top" Grid.ColumnSpan="4"/>
+        <ComboBox HorizontalAlignment="Left" Margin="16,112,0,0" VerticalAlignment="Top" Width="193" Name="genreCbox" Grid.Column="4"/>
+        <Label Content="Grade :" HorizontalAlignment="Left" Margin="12,139,0,0" VerticalAlignment="Top" Grid.ColumnSpan="4"/>
+        <ComboBox HorizontalAlignment="Left" Margin="16,139,0,0" VerticalAlignment="Top" Width="193" Name="gradeCbox" Grid.Column="4"/>
+        <Label Content="Distributor :" HorizontalAlignment="Left" Margin="12,167,0,0" VerticalAlignment="Top" Grid.ColumnSpan="4"/>
+        <ComboBox HorizontalAlignment="Left" Margin="16,167,0,0" VerticalAlignment="Top" Width="193" Name="distributorCbox" Grid.Column="4"/>
+        <Label Content="Machine Learning Algorithm :" HorizontalAlignment="Left" Margin="12,249,0,0" VerticalAlignment="Top" Grid.ColumnSpan="5"/>
+        <RadioButton Content="One Rule" HorizontalAlignment="Left" Margin="12,270,0,-6" VerticalAlignment="Top" GroupName="mlAlgo" Name="oneRuleRbtn" Grid.ColumnSpan="4"/>
+        <RadioButton Content="Covering Algorithm" HorizontalAlignment="Left" Margin="2,270,0,-6" VerticalAlignment="Top" GroupName="mlAlgo" Name="coveringAlgoRbtn" Grid.Column="4"/>
+        <RadioButton Content="Decision Tree" HorizontalAlignment="Left" Margin="12,292,0,-28" VerticalAlignment="Top" GroupName="mlAlgo" Name="dicisionTreeRbtn" Grid.ColumnSpan="4"/>
+        <RadioButton Content="Naive Baysian" HorizontalAlignment="Left" Margin="2,292,0,-28" VerticalAlignment="Top" GroupName="mlAlgo" Name="naiveBaysianRbtn" Grid.Column="4"/>
+        <GroupBox Header="Result" HorizontalAlignment="Left" Margin="235,29,0,0" VerticalAlignment="Top" Height="213" Width="305" Grid.Column="4"/>
+        <Label Content="Result나올라벨" HorizontalAlignment="Left" Margin="259,67,0,0" VerticalAlignment="Top" Name="resultLbl" Grid.Column="4"/>
+        <Label Content="Accuracy : " HorizontalAlignment="Left" Margin="235,249,0,0" VerticalAlignment="Top" Grid.Column="4"/>
+
     </Grid>
 </UserControl>
