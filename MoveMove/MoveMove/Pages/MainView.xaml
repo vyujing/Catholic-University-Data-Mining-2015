@@ -7,6 +7,10 @@
              mc:Ignorable="d" Width="725.101" Height="325.101">
 
     <Grid Style="{StaticResource ContentRoot}" Margin="16,-30,16,74">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="226*"/>
+            <RowDefinition Height="55*"/>
+        </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="0*"/>
             <ColumnDefinition Width="15*"/>
@@ -15,25 +19,1560 @@
             <ColumnDefinition Width="566*"/>
         </Grid.ColumnDefinitions>
         <Label Content="Director :" HorizontalAlignment="Left" Height="22" Margin="12,30,0,0" VerticalAlignment="Top" Grid.ColumnSpan="4"/>
-        <ComboBox HorizontalAlignment="Left" Margin="16,30,0,0" VerticalAlignment="Top" Width="193" Name="directorCbox" Grid.Column="4"/>
+        <ComboBox HorizontalAlignment="Left" Margin="16,30,0,0" VerticalAlignment="Top" Width="193" Name="directorCbox" Grid.Column="4">
+            <ComboBoxItem Content="J.C 챈더" Width="193"/>
+            <ComboBoxItem Content="J.J. 에이브럼스" Width="193"/>
+            <ComboBoxItem Content="K. 애셔 레빈" Width="193"/>
+            <ComboBoxItem Content="M. 나이트 샤말란" Width="193"/>
+            <ComboBoxItem Content="R. 엘리스 프레이저" Width="193"/>
+            <ComboBoxItem Content="S. 샹카르" Width="193"/>
+            <ComboBoxItem Content="가렛 에반스" Width="193"/>
+            <ComboBoxItem Content="가타오카 슈지" Width="193"/>
+            <ComboBoxItem Content="강문" Width="193"/>
+            <ComboBoxItem Content="강석필" Width="193"/>
+            <ComboBoxItem Content="강우석" Width="193"/>
+            <ComboBoxItem Content="강이관" Width="193"/>
+            <ComboBoxItem Content="강진아" Width="193"/>
+            <ComboBoxItem Content="강호준" Width="193"/>
+            <ComboBoxItem Content="강효진" Width="193"/>
+            <ComboBoxItem Content="거나 칼슨" Width="193"/>
+            <ComboBoxItem Content="게레온 베첼" Width="193"/>
+            <ComboBoxItem Content="게리 로스" Width="193"/>
+            <ComboBoxItem Content="겐디 타르타코프스키" Width="193"/>
+            <ComboBoxItem Content="겔라 바블루아니" Width="193"/>
+            <ComboBoxItem Content="경순" Width="193"/>
+            <ComboBoxItem Content="고군서" Width="193"/>
+            <ComboBoxItem Content="고락중" Width="193"/>
+            <ComboBoxItem Content="고명안" Width="193"/>
+            <ComboBoxItem Content="고바야시 코지" Width="193"/>
+            <ComboBoxItem Content="공귀현" Width="193"/>
+            <ComboBoxItem Content="곽경택" Width="193"/>
+            <ComboBoxItem Content="교우야 타다시" Width="193"/>
+            <ComboBoxItem Content="구상범" Width="193"/>
+            <ComboBoxItem Content="구스타보 론" Width="193"/>
+            <ComboBoxItem Content="구스타보 헤르난데즈" Width="193"/>
+            <ComboBoxItem Content="구아타보 니에토 로아" Width="193"/>
+            <ComboBoxItem Content="구예도" Width="193"/>
+            <ComboBoxItem Content="구자홍" Width="193"/>
+            <ComboBoxItem Content="구파도" Width="193"/>
+            <ComboBoxItem Content="구혜선" Width="193"/>
+            <ComboBoxItem Content="권영락" Width="193"/>
+            <ComboBoxItem Content="권칠인" Width="193"/>
+            <ComboBoxItem Content="권호영" Width="193"/>
+            <ComboBoxItem Content="그레이엄 빅" Width="193"/>
+            <ComboBoxItem Content="글렌 맥퀘이드" Width="193"/>
+            <ComboBoxItem Content="기욤 이베르넬" Width="193"/>
+            <ComboBoxItem Content="김건" Width="193"/>
+            <ComboBoxItem Content="김경묵" Width="193"/>
+            <ComboBoxItem Content="김기덕" Width="193"/>
+            <ComboBoxItem Content="김기현" Width="193"/>
+            <ComboBoxItem Content="김꽃비" Width="193"/>
+            <ComboBoxItem Content="김달중" Width="193"/>
+            <ComboBoxItem Content="김대승" Width="193"/>
+            <ComboBoxItem Content="김동빈" Width="193"/>
+            <ComboBoxItem Content="김동원" Width="193"/>
+            <ComboBoxItem Content="김동호" Width="193"/>
+            <ComboBoxItem Content="김두헌" Width="193"/>
+            <ComboBoxItem Content="김문흠" Width="193"/>
+            <ComboBoxItem Content="김선" Width="193"/>
+            <ComboBoxItem Content="김선아" Width="193"/>
+            <ComboBoxItem Content="김성호" Width="193"/>
+            <ComboBoxItem Content="김성홍" Width="193"/>
+            <ComboBoxItem Content="김성훈" Width="193"/>
+            <ComboBoxItem Content="김승현" Width="193"/>
+            <ComboBoxItem Content="김용균" Width="193"/>
+            <ComboBoxItem Content="김용한" Width="193"/>
+            <ComboBoxItem Content="김익로" Width="193"/>
+            <ComboBoxItem Content="김일란" Width="193"/>
+            <ComboBoxItem Content="김재영" Width="193"/>
+            <ComboBoxItem Content="김재환" Width="193"/>
+            <ComboBoxItem Content="김조광수" Width="193"/>
+            <ComboBoxItem Content="김주호" Width="193"/>
+            <ComboBoxItem Content="김중현" Width="193"/>
+            <ComboBoxItem Content="김지운" Width="193"/>
+            <ComboBoxItem Content="김지훈" Width="193"/>
+            <ComboBoxItem Content="김진만" Width="193"/>
+            <ComboBoxItem Content="김진영" Width="193"/>
+            <ComboBoxItem Content="김진희" Width="193"/>
+            <ComboBoxItem Content="김춘찬" Width="193"/>
+            <ComboBoxItem Content="김태경" Width="193"/>
+            <ComboBoxItem Content="김태곤" Width="193"/>
+            <ComboBoxItem Content="김태균" Width="193"/>
+            <ComboBoxItem Content="김형렬" Width="193"/>
+            <ComboBoxItem Content="김형준" Width="193"/>
+            <ComboBoxItem Content="김혜정" Width="193"/>
+            <ComboBoxItem Content="김홍선" Width="193"/>
+            <ComboBoxItem Content="김휘" Width="193"/>
+            <ComboBoxItem Content="김희정" Width="193"/>
+            <ComboBoxItem Content="나가미네 마사토시" Width="193"/>
+            <ComboBoxItem Content="나가미네 타츠야" Width="193"/>
+            <ComboBoxItem Content="나가이시 다카오" Width="193"/>
+            <ComboBoxItem Content="나수요" Width="193"/>
+            <ComboBoxItem Content="나카마치 사쿠" Width="193"/>
+            <ComboBoxItem Content="난니 모레티" Width="193"/>
+            <ComboBoxItem Content="남택수" Width="193"/>
+            <ComboBoxItem Content="낸시 사보카" Width="193"/>
+            <ComboBoxItem Content="노덕" Width="193"/>
+            <ComboBoxItem Content="노무라 카즈야" Width="193"/>
+            <ComboBoxItem Content="니나가와 미카" Width="193"/>
+            <ComboBoxItem Content="니쉬칸트 카마트" Width="193"/>
+            <ComboBoxItem Content="니콜라이 아르셀" Width="193"/>
+            <ComboBoxItem Content="닉 스트링거" Width="193"/>
+            <ComboBoxItem Content="닉 어거스트 페르나" Width="193"/>
+            <ComboBoxItem Content="닉 오머로드" Width="193"/>
+            <ComboBoxItem Content="닉힐 아드바니" Width="193"/>
+            <ComboBoxItem Content="닐 버거" Width="193"/>
+            <ComboBoxItem Content="닐스 아르덴 오플레브" Width="193"/>
+            <ComboBoxItem Content="다나 아담 사피로" Width="193"/>
+            <ComboBoxItem Content="다니아 파스퀴니" Width="193"/>
+            <ComboBoxItem Content="다니엘 그로우" Width="193"/>
+            <ComboBoxItem Content="다니엘 아르비드" Width="193"/>
+            <ComboBoxItem Content="다니엘 알프레드슨" Width="193"/>
+            <ComboBoxItem Content="다니엘 에스피노사" Width="193"/>
+            <ComboBoxItem Content="다니엘 코헨" Width="193"/>
+            <ComboBoxItem Content="다리오 아르젠토" Width="193"/>
+            <ComboBoxItem Content="다비드 포앙키노스" Width="193"/>
+            <ComboBoxItem Content="다인 사이드" Width="193"/>
+            <ComboBoxItem Content="다카하시 반메이" Width="193"/>
+            <ComboBoxItem Content="다카하타 이사오" Width="193"/>
+            <ComboBoxItem Content="댄 가르시아" Width="193"/>
+            <ComboBoxItem Content="댄 러쉬" Width="193"/>
+            <ComboBoxItem Content="댄 마저" Width="193"/>
+            <ComboBoxItem Content="더 비셔우스 브라더스" Width="193"/>
+            <ComboBoxItem Content="더글라스 맥그래스" Width="193"/>
+            <ComboBoxItem Content="더글라스 아니오코스키" Width="193"/>
+            <ComboBoxItem Content="더스틴 호프만" Width="193"/>
+            <ComboBoxItem Content="던컨 워드" Width="193"/>
+            <ComboBoxItem Content="데니스 토도로빅" Width="193"/>
+            <ComboBoxItem Content="데렉 시앤프랭스" Width="193"/>
+            <ComboBoxItem Content="데릭 브룸" Width="193"/>
+            <ComboBoxItem Content="데미안 코졸레" Width="193"/>
+            <ComboBoxItem Content="데스 맥가너프" Width="193"/>
+            <ComboBoxItem Content="데이비드 멕비카" Width="193"/>
+            <ComboBoxItem Content="데이비드 에이어" Width="193"/>
+            <ComboBoxItem Content="데이비드 프랑켈" Width="193"/>
+            <ComboBoxItem Content="데이빗 A. 암스트롱" Width="193"/>
+            <ComboBoxItem Content="데이빗 M. 로젠탈" Width="193"/>
+            <ComboBoxItem Content="데이빗 O. 러셀" Width="193"/>
+            <ComboBoxItem Content="데이빗 겔브" Width="193"/>
+            <ComboBoxItem Content="데이빗 맥킨지" Width="193"/>
+            <ComboBoxItem Content="데이빗 미코드" Width="193"/>
+            <ComboBoxItem Content="데이빗 바렛" Width="193"/>
+            <ComboBoxItem Content="데이빗 브룩크너" Width="193"/>
+            <ComboBoxItem Content="데이빗 크로넨버그" Width="193"/>
+            <ComboBoxItem Content="데이빗 핀처" Width="193"/>
+            <ComboBoxItem Content="데이빗 홀랜더" Width="193"/>
+            <ComboBoxItem Content="데클란 도넬란" Width="193"/>
+            <ComboBoxItem Content="데틀레프 북" Width="193"/>
+            <ComboBoxItem Content="뎁 헤이갠" Width="193"/>
+            <ComboBoxItem Content="도미니크 몽페리" Width="193"/>
+            <ComboBoxItem Content="도미니크 아벨" Width="193"/>
+            <ComboBoxItem Content="돈 로이 킹" Width="193"/>
+            <ComboBoxItem Content="드류 고다드" Width="193"/>
+            <ComboBoxItem Content="라나 워쇼스키" Width="193"/>
+            <ComboBoxItem Content="라디오 사일런스" Width="193"/>
+            <ComboBoxItem Content="라스 폰 트리에" Width="193"/>
+            <ComboBoxItem Content="라스무스 A. 실버르센" Width="193"/>
+            <ComboBoxItem Content="라울 루이즈" Width="193"/>
+            <ComboBoxItem Content="라이언 리틀" Width="193"/>
+            <ComboBoxItem Content="라이언 존슨" Width="193"/>
+            <ComboBoxItem Content="라인하드 클루스" Width="193"/>
+            <ComboBoxItem Content="랄프 후에트너" Width="193"/>
+            <ComboBoxItem Content="랜스 데일리" Width="193"/>
+            <ComboBoxItem Content="러셀 멀케이" Width="193"/>
+            <ComboBoxItem Content="레나르드 프리츠 크라빙켈" Width="193"/>
+            <ComboBoxItem Content="레니 할린" Width="193"/>
+            <ComboBoxItem Content="레미 베잔송" Width="193"/>
+            <ComboBoxItem Content="레오 까락스" Width="193"/>
+            <ComboBoxItem Content="레이노앗 오얼레만스" Width="193"/>
+            <ComboBoxItem Content="레이몽 드파르동" Width="193"/>
+            <ComboBoxItem Content="레지스 르왕사르" Width="193"/>
+            <ComboBoxItem Content="렌 와이즈먼" Width="193"/>
+            <ComboBoxItem Content="렌조 마르티넬리" Width="193"/>
+            <ComboBoxItem Content="로드리고 코르테스" Width="193"/>
+            <ComboBoxItem Content="로랑 코티오드" Width="193"/>
+            <ComboBoxItem Content="로랑 펠리" Width="193"/>
+            <ComboBoxItem Content="로렌스 코너" Width="193"/>
+            <ComboBoxItem Content="로만 폴란스키" Width="193"/>
+            <ComboBoxItem Content="로버트 B. 웨이드" Width="193"/>
+            <ComboBoxItem Content="로버트 로드리게즈" Width="193"/>
+            <ComboBoxItem Content="로버트 로렌즈" Width="193"/>
+            <ComboBoxItem Content="로버트 리버맨" Width="193"/>
+            <ComboBoxItem Content="로버트 제멕키스" Width="193"/>
+            <ComboBoxItem Content="로버트 포스터" Width="193"/>
+            <ComboBoxItem Content="로베르 르빠쥬" Width="193"/>
+            <ComboBoxItem Content="로베르트 르빠쥬" Width="193"/>
+            <ComboBoxItem Content="로저 도날드슨" Width="193"/>
+            <ComboBoxItem Content="로저 호킨스" Width="193"/>
+            <ComboBoxItem Content="로젤린 보쉬" Width="193"/>
+            <ComboBoxItem Content="로코 파팔레오" Width="193"/>
+            <ComboBoxItem Content="론 쉐르픽" Width="193"/>
+            <ComboBoxItem Content="론 스캘펠로" Width="193"/>
+            <ComboBoxItem Content="롤랜드 에머리히" Width="193"/>
+            <ComboBoxItem Content="롭 민코프" Width="193"/>
+            <ComboBoxItem Content="롭 코헨" Width="193"/>
+            <ComboBoxItem Content="루 비질" Width="193"/>
+            <ComboBoxItem Content="루 추안" Width="193"/>
+            <ComboBoxItem Content="루나 루나슨" Width="193"/>
+            <ComboBoxItem Content="루카 미니에로" Width="193"/>
+            <ComboBoxItem Content="루크 본디" Width="193"/>
+            <ComboBoxItem Content="루퍼트 브라이언" Width="193"/>
+            <ComboBoxItem Content="루퍼트 샌더스" Width="193"/>
+            <ComboBoxItem Content="뤽 다르덴" Width="193"/>
+            <ComboBoxItem Content="뤽 베송" Width="193"/>
+            <ComboBoxItem Content="류승완" Width="193"/>
+            <ComboBoxItem Content="류신의" Width="193"/>
+            <ComboBoxItem Content="리 다니엘스" Width="193"/>
+            <ComboBoxItem Content="리 스턴탈" Width="193"/>
+            <ComboBoxItem Content="리 위" Width="193"/>
+            <ComboBoxItem Content="리 타마호리" Width="193"/>
+            <ComboBoxItem Content="리들리 스콧" Width="193"/>
+            <ComboBoxItem Content="리자 랑세트" Width="193"/>
+            <ComboBoxItem Content="리차드 라그라브네스" Width="193"/>
+            <ComboBoxItem Content="리차드 링클레이터" Width="193"/>
+            <ComboBoxItem Content="리차드 이어" Width="193"/>
+            <ComboBoxItem Content="리차드 켈리" Width="193"/>
+            <ComboBoxItem Content="리처드 J. 루이스" Width="193"/>
+            <ComboBoxItem Content="리처드 링클레이터" Width="193"/>
+            <ComboBoxItem Content="리치 무어" Width="193"/>
+            <ComboBoxItem Content="릭 로만 워프" Width="193"/>
+            <ComboBoxItem Content="릭 비버" Width="193"/>
+            <ComboBoxItem Content="린 램지" Width="193"/>
+            <ComboBoxItem Content="린 유시엔" Width="193"/>
+            <ComboBoxItem Content="린 타로" Width="193"/>
+            <ComboBoxItem Content="마누엘 카르발로" Width="193"/>
+            <ComboBoxItem Content="마르잔 사트라피" Width="193"/>
+            <ComboBoxItem Content="마르코스 에프론" Width="193"/>
+            <ComboBoxItem Content="마르탱 프로보스트" Width="193"/>
+            <ComboBoxItem Content="마리아 린드버그" Width="193"/>
+            <ComboBoxItem Content="마미 스나다" Width="193"/>
+            <ComboBoxItem Content="마브룩 엘 메크리" Width="193"/>
+            <ComboBoxItem Content="마스이 소이치" Width="193"/>
+            <ComboBoxItem Content="마에노 토모야" Width="193"/>
+            <ComboBoxItem Content="마우고시카 슈모프스카" Width="193"/>
+            <ComboBoxItem Content="마이크 건서" Width="193"/>
+            <ComboBoxItem Content="마이크 마우루스" Width="193"/>
+            <ComboBoxItem Content="마이크 맥코이" Width="193"/>
+            <ComboBoxItem Content="마이크 트메이어" Width="193"/>
+            <ComboBoxItem Content="마이클 A. 니클즈" Width="193"/>
+            <ComboBoxItem Content="마이클 그랑디지" Width="193"/>
+            <ComboBoxItem Content="마이클 라이트" Width="193"/>
+            <ComboBoxItem Content="마이클 래드포드" Width="193"/>
+            <ComboBoxItem Content="마이클 브랜트" Width="193"/>
+            <ComboBoxItem Content="마이클 수치" Width="193"/>
+            <ComboBoxItem Content="마이클 슐츠" Width="193"/>
+            <ComboBoxItem Content="마이클 윈터바텀" Width="193"/>
+            <ComboBoxItem Content="마이클 페이퍼" Width="193"/>
+            <ComboBoxItem Content="마이클 호프만 Jr." Width="193"/>
+            <ComboBoxItem Content="마이클 화이트" Width="193"/>
+            <ComboBoxItem Content="마차 마케이에프" Width="193"/>
+            <ComboBoxItem Content="마츠우라 마사코" Width="193"/>
+            <ComboBoxItem Content="마커스 니스펠" Width="193"/>
+            <ComboBoxItem Content="마커스 던스탠" Width="193"/>
+            <ComboBoxItem Content="마크 A.Z. 디페" Width="193"/>
+            <ComboBoxItem Content="마크 골드스타인" Width="193"/>
+            <ComboBoxItem Content="마크 네브다인" Width="193"/>
+            <ComboBoxItem Content="마크 만" Width="193"/>
+            <ComboBoxItem Content="마크 앤드류스" Width="193"/>
+            <ComboBoxItem Content="마크 앳킨스" Width="193"/>
+            <ComboBoxItem Content="마크 얼바움" Width="193"/>
+            <ComboBoxItem Content="마크 웹" Width="193"/>
+            <ComboBoxItem Content="마크 톤데라이" Width="193"/>
+            <ComboBoxItem Content="마크 포스터" Width="193"/>
+            <ComboBoxItem Content="마티유 아말릭" Width="193"/>
+            <ComboBoxItem Content="마틴 스콜세지" Width="193"/>
+            <ComboBoxItem Content="마틴 허버티" Width="193"/>
+            <ComboBoxItem Content="막심 스베쉬니코브" Width="193"/>
+            <ComboBoxItem Content="만스 말린드" Width="193"/>
+            <ComboBoxItem Content="말릭 벤젠룰" Width="193"/>
+            <ComboBoxItem Content="말콤 벤빌" Width="193"/>
+            <ComboBoxItem Content="매튜 본" Width="193"/>
+            <ComboBoxItem Content="매티스 반 헤이닌겐 주니어" Width="193"/>
+            <ComboBoxItem Content="맥스 기와" Width="193"/>
+            <ComboBoxItem Content="맥스 매닉스" Width="193"/>
+            <ComboBoxItem Content="맥지" Width="193"/>
+            <ComboBoxItem Content="메건 그리피스" Width="193"/>
+            <ComboBoxItem Content="메리 램버트" Width="193"/>
+            <ComboBoxItem Content="멜라니 로랑" Width="193"/>
+            <ComboBoxItem Content="모리모토 코지" Width="193"/>
+            <ComboBoxItem Content="모리시타 코조" Width="193"/>
+            <ComboBoxItem Content="모리오카 토시유키" Width="193"/>
+            <ComboBoxItem Content="모우리 요이치" Width="193"/>
+            <ComboBoxItem Content="모토키 타카시" Width="193"/>
+            <ComboBoxItem Content="무라타 마사히코" Width="193"/>
+            <ComboBoxItem Content="무라타 카즈야" Width="193"/>
+            <ComboBoxItem Content="문인대" Width="193"/>
+            <ComboBoxItem Content="문현성" Width="193"/>
+            <ComboBoxItem Content="미구엘 엔젤 비바스" Width="193"/>
+            <ComboBoxItem Content="미노리카와 오사무" Width="193"/>
+            <ComboBoxItem Content="미란다 줄리" Width="193"/>
+            <ComboBoxItem Content="미미 레더" Width="193"/>
+            <ComboBoxItem Content="미셸 아자나비슈스" Width="193"/>
+            <ComboBoxItem Content="미셸 오슬로" Width="193"/>
+            <ComboBoxItem Content="미시마 유키코" Width="193"/>
+            <ComboBoxItem Content="미야오 요시카즈" Width="193"/>
+            <ComboBoxItem Content="미야지 마사유키" Width="193"/>
+            <ComboBoxItem Content="미이케 다카시" Width="193"/>
+            <ComboBoxItem Content="미초 루타르" Width="193"/>
+            <ComboBoxItem Content="미카엘 하네케" Width="193"/>
+            <ComboBoxItem Content="미타니 코키" Width="193"/>
+            <ComboBoxItem Content="민규동" Width="193"/>
+            <ComboBoxItem Content="민두식" Width="193"/>
+            <ComboBoxItem Content="민병훈" Width="193"/>
+            <ComboBoxItem Content="바즈 루어만" Width="193"/>
+            <ComboBoxItem Content="바틀렛 쉐어" Width="193"/>
+            <ComboBoxItem Content="박광춘" Width="193"/>
+            <ComboBoxItem Content="박루슬란" Width="193"/>
+            <ComboBoxItem Content="박명랑" Width="193"/>
+            <ComboBoxItem Content="박배일" Width="193"/>
+            <ComboBoxItem Content="박병환" Width="193"/>
+            <ComboBoxItem Content="박보상" Width="193"/>
+            <ComboBoxItem Content="박선욱" Width="193"/>
+            <ComboBoxItem Content="박성수" Width="193"/>
+            <ComboBoxItem Content="박세희" Width="193"/>
+            <ComboBoxItem Content="박영균" Width="193"/>
+            <ComboBoxItem Content="박영철" Width="193"/>
+            <ComboBoxItem Content="박정우" Width="193"/>
+            <ComboBoxItem Content="박준범" Width="193"/>
+            <ComboBoxItem Content="박찬욱" Width="193"/>
+            <ComboBoxItem Content="박철관" Width="193"/>
+            <ComboBoxItem Content="박철수" Width="193"/>
+            <ComboBoxItem Content="박홍민" Width="193"/>
+            <ComboBoxItem Content="박훈정" Width="193"/>
+            <ComboBoxItem Content="박흥식" Width="193"/>
+            <ComboBoxItem Content="반원량" Width="193"/>
+            <ComboBoxItem Content="발레리 게르기예프" Width="193"/>
+            <ComboBoxItem Content="발타자르 코루마쿠르" Width="193"/>
+            <ComboBoxItem Content="방은진" Width="193"/>
+            <ComboBoxItem Content="배광수" Width="193"/>
+            <ComboBoxItem Content="배형준" Width="193"/>
+            <ComboBoxItem Content="백상열" Width="193"/>
+            <ComboBoxItem Content="백승화" Width="193"/>
+            <ComboBoxItem Content="백연아" Width="193"/>
+            <ComboBoxItem Content="백창주" Width="193"/>
+            <ComboBoxItem Content="뱅상 파로노" Width="193"/>
+            <ComboBoxItem Content="버나드 로즈" Width="193"/>
+            <ComboBoxItem Content="버나비 사우스콤" Width="193"/>
+            <ComboBoxItem Content="베네덱 플리고프" Width="193"/>
+            <ComboBoxItem Content="베노이트 필립폰" Width="193"/>
+            <ComboBoxItem Content="베르너 헤어조크" Width="193"/>
+            <ComboBoxItem Content="베르트랑 보넬로" Width="193"/>
+            <ComboBoxItem Content="베리 소넨필드" Width="193"/>
+            <ComboBoxItem Content="베스 카그맨" Width="193"/>
+            <ComboBoxItem Content="벤 루윈" Width="193"/>
+            <ComboBoxItem Content="벤 스타센" Width="193"/>
+            <ComboBoxItem Content="벤 애플렉" Width="193"/>
+            <ComboBoxItem Content="벤 제틀린" Width="193"/>
+            <ComboBoxItem Content="벨라 타르" Width="193"/>
+            <ComboBoxItem Content="변성현" Width="193"/>
+            <ComboBoxItem Content="변영주" Width="193"/>
+            <ComboBoxItem Content="봉만대" Width="193"/>
+            <ComboBoxItem Content="부지영" Width="193"/>
+            <ComboBoxItem Content="브누와 쟉꼬" Width="193"/>
+            <ComboBoxItem Content="브라이언 싱어" Width="193"/>
+            <ComboBoxItem Content="브라이언 에이브릴" Width="193"/>
+            <ComboBoxItem Content="브라이언 클러그만" Width="193"/>
+            <ComboBoxItem Content="브라이언 테일러" Width="193"/>
+            <ComboBoxItem Content="브래드 T. 갓프레드" Width="193"/>
+            <ComboBoxItem Content="브래드 실버링" Width="193"/>
+            <ComboBoxItem Content="브래드 앤더슨" Width="193"/>
+            <ComboBoxItem Content="브레드 페이튼" Width="193"/>
+            <ComboBoxItem Content="브렌다 채프먼" Width="193"/>
+            <ComboBoxItem Content="브렛 설리반" Width="193"/>
+            <ComboBoxItem Content="브루노 로미" Width="193"/>
+            <ComboBoxItem Content="브루스 로빈슨" Width="193"/>
+            <ComboBoxItem Content="블라드 바르베" Width="193"/>
+            <ComboBoxItem Content="비욘 스테인" Width="193"/>
+            <ComboBoxItem Content="비자이" Width="193"/>
+            <ComboBoxItem Content="비토리오 타비아니" Width="193"/>
+            <ComboBoxItem Content="빅터 플레밍" Width="193"/>
+            <ComboBoxItem Content="빌 어거스트" Width="193"/>
+            <ComboBoxItem Content="빌 코코란" Width="193"/>
+            <ComboBoxItem Content="빌 콘돈" Width="193"/>
+            <ComboBoxItem Content="빔 벤더스" Width="193"/>
+            <ComboBoxItem Content="사나다 아츠시" Width="193"/>
+            <ComboBoxItem Content="사노 가즈히로" Width="193"/>
+            <ComboBoxItem Content="사노 카즈히로" Width="193"/>
+            <ComboBoxItem Content="사라 지프" Width="193"/>
+            <ComboBoxItem Content="사라 폴리" Width="193"/>
+            <ComboBoxItem Content="사부" Width="193"/>
+            <ComboBoxItem Content="사사가와 히로시" Width="193"/>
+            <ComboBoxItem Content="사수가 사스케" Width="193"/>
+            <ComboBoxItem Content="사이러스 노라스테" Width="193"/>
+            <ComboBoxItem Content="사이먼 웨스트" Width="193"/>
+            <ComboBoxItem Content="사이먼 커티스" Width="193"/>
+            <ComboBoxItem Content="사이몬 엘리스" Width="193"/>
+            <ComboBoxItem Content="사이몬 필립스" Width="193"/>
+            <ComboBoxItem Content="사토 유조" Width="193"/>
+            <ComboBoxItem Content="사토 케이이치" Width="193"/>
+            <ComboBoxItem Content="사토 토시기" Width="193"/>
+            <ComboBoxItem Content="사토 히로유키" Width="193"/>
+            <ComboBoxItem Content="사토 히사야스" Width="193"/>
+            <ComboBoxItem Content="사토우 토시키" Width="193"/>
+            <ComboBoxItem Content="샘 레이미" Width="193"/>
+            <ComboBoxItem Content="샘 멘데스" Width="193"/>
+            <ComboBoxItem Content="샘 펠" Width="193"/>
+            <ComboBoxItem Content="샤그다슈렌" Width="193"/>
+            <ComboBoxItem Content="샤샤 하트만" Width="193"/>
+            <ComboBoxItem Content="서극" Width="193"/>
+            <ComboBoxItem Content="서영주" Width="193"/>
+            <ComboBoxItem Content="서용호" Width="193"/>
+            <ComboBoxItem Content="서태지" Width="193"/>
+            <ComboBoxItem Content="성룡" Width="193"/>
+            <ComboBoxItem Content="세드릭 칸" Width="193"/>
+            <ComboBoxItem Content="세베 쉘레쯔" Width="193"/>
+            <ComboBoxItem Content="세스 맥파라인" Width="193"/>
+            <ComboBoxItem Content="소노 시온" Width="193"/>
+            <ComboBoxItem Content="손석" Width="193"/>
+            <ComboBoxItem Content="송예섭" Width="193"/>
+            <ComboBoxItem Content="송일곤" Width="193"/>
+            <ComboBoxItem Content="송해성" Width="193"/>
+            <ComboBoxItem Content="수오 마사유키" Width="193"/>
+            <ComboBoxItem Content="수유 린" Width="193"/>
+            <ComboBoxItem Content="수잔 비에르" Width="193"/>
+            <ComboBoxItem Content="순리준" Width="193"/>
+            <ComboBoxItem Content="쉐인 반 다이크" Width="193"/>
+            <ComboBoxItem Content="쉐인 블랙" Width="193"/>
+            <ComboBoxItem Content="스기노 아키오" Width="193"/>
+            <ComboBoxItem Content="스기이 기사부로" Width="193"/>
+            <ComboBoxItem Content="스비야토슬라브 우샤코프" Width="193"/>
+            <ComboBoxItem Content="스즈키 토시히사" Width="193"/>
+            <ComboBoxItem Content="스콧 데릭슨" Width="193"/>
+            <ComboBoxItem Content="스콧 스피어" Width="193"/>
+            <ComboBoxItem Content="스콧 워" Width="193"/>
+            <ComboBoxItem Content="스콧 휠러" Width="193"/>
+            <ComboBoxItem Content="스테판 St. 레게르" Width="193"/>
+            <ComboBoxItem Content="스테판 루조비츠키" Width="193"/>
+            <ComboBoxItem Content="스테판 리보자드" Width="193"/>
+            <ComboBoxItem Content="스테판 포엔키노스" Width="193"/>
+            <ComboBoxItem Content="스티브 마티노" Width="193"/>
+            <ComboBoxItem Content="스티브 맥퀸" Width="193"/>
+            <ComboBoxItem Content="스티브 바커" Width="193"/>
+            <ComboBoxItem Content="스티븐 C. 밀러" Width="193"/>
+            <ComboBoxItem Content="스티븐 R. 몬로" Width="193"/>
+            <ComboBoxItem Content="스티븐 소더버그" Width="193"/>
+            <ComboBoxItem Content="스티븐 스필버그" Width="193"/>
+            <ComboBoxItem Content="스티븐 실버" Width="193"/>
+            <ComboBoxItem Content="스티븐 워즈워스" Width="193"/>
+            <ComboBoxItem Content="스티븐 크보스키" Width="193"/>
+            <ComboBoxItem Content="시나가와 히로시" Width="193"/>
+            <ComboBoxItem Content="시디끄" Width="193"/>
+            <ComboBoxItem Content="시시도 준" Width="193"/>
+            <ComboBoxItem Content="시오타니 나오요시" Width="193"/>
+            <ComboBoxItem Content="시즈노 코분" Width="193"/>
+            <ComboBoxItem Content="신동엽" Width="193"/>
+            <ComboBoxItem Content="신수원" Width="193"/>
+            <ComboBoxItem Content="신아가" Width="193"/>
+            <ComboBoxItem Content="신정원" Width="193"/>
+            <ComboBoxItem Content="신조 타케히코" Width="193"/>
+            <ComboBoxItem Content="신태라" Width="193"/>
+            <ComboBoxItem Content="신현원" Width="193"/>
+            <ComboBoxItem Content="신혜성" Width="193"/>
+            <ComboBoxItem Content="아그네츠카 홀랜드" Width="193"/>
+            <ComboBoxItem Content="아담 쉥크만" Width="193"/>
+            <ComboBoxItem Content="아담 윈가드" Width="193"/>
+            <ComboBoxItem Content="아딧탸 초프라" Width="193"/>
+            <ComboBoxItem Content="아라키 겐지" Width="193"/>
+            <ComboBoxItem Content="아론 T. 웰즈" Width="193"/>
+            <ComboBoxItem Content="아르튀르 크왁" Width="193"/>
+            <ComboBoxItem Content="아리얼 브로멘" Width="193"/>
+            <ComboBoxItem Content="아리엘 슐만" Width="193"/>
+            <ComboBoxItem Content="아몰 굽트" Width="193"/>
+            <ComboBoxItem Content="아미노 테츠로" Width="193"/>
+            <ComboBoxItem Content="아미르 나데리" Width="193"/>
+            <ComboBoxItem Content="아미르 칸" Width="193"/>
+            <ComboBoxItem Content="아순 마와르디" Width="193"/>
+            <ComboBoxItem Content="아이라 잭스" Width="193"/>
+            <ComboBoxItem Content="아이바 토모아키" Width="193"/>
+            <ComboBoxItem Content="아이조메 쿄코" Width="193"/>
+            <ComboBoxItem Content="안나 저스티스" Width="193"/>
+            <ComboBoxItem Content="안노 히데아키" Width="193"/>
+            <ComboBoxItem Content="안드레이 콘찰로프스키" Width="193"/>
+            <ComboBoxItem Content="안드리스 넬슨스" Width="193"/>
+            <ComboBoxItem Content="안드리아 아놀드" Width="193"/>
+            <ComboBoxItem Content="안철호" Width="193"/>
+            <ComboBoxItem Content="안토니오 니그렛" Width="193"/>
+            <ComboBoxItem Content="안토니오 자발라 쿠글러" Width="193"/>
+            <ComboBoxItem Content="안톤 메거딕체브" Width="193"/>
+            <ComboBoxItem Content="안톤 후쿠아" Width="193"/>
+            <ComboBoxItem Content="알랭 가뇰" Width="193"/>
+            <ComboBoxItem Content="알랭 기로디" Width="193"/>
+            <ComboBoxItem Content="알랭 레네" Width="193"/>
+            <ComboBoxItem Content="알렉산더 페인" Width="193"/>
+            <ComboBoxItem Content="알렉산드르 멜닉" Width="193"/>
+            <ComboBoxItem Content="알렉산드르 블라브스키" Width="193"/>
+            <ComboBoxItem Content="알렉산드르 소쿠로브" Width="193"/>
+            <ComboBoxItem Content="알렉산드르 야킴추크" Width="193"/>
+            <ComboBoxItem Content="알렉스 그레고리" Width="193"/>
+            <ComboBoxItem Content="알렉스 드 라 이글레시아" Width="193"/>
+            <ComboBoxItem Content="알렌 휴즈" Width="193"/>
+            <ComboBoxItem Content="앙토니 코르디에" Width="193"/>
+            <ComboBoxItem Content="애비 루트라" Width="193"/>
+            <ComboBoxItem Content="애스게르 레스" Width="193"/>
+            <ComboBoxItem Content="앤드레스 무시에티" Width="193"/>
+            <ComboBoxItem Content="앤드류 니콜" Width="193"/>
+            <ComboBoxItem Content="앤드류 도미닉" Width="193"/>
+            <ComboBoxItem Content="앤드류 스탠든" Width="193"/>
+            <ComboBoxItem Content="앤디 워쇼스키" Width="193"/>
+            <ComboBoxItem Content="야구치 시노부" Width="193"/>
+            <ComboBoxItem Content="야노 히로유키" Width="193"/>
+            <ComboBoxItem Content="야누스 메츠 패더슨" Width="193"/>
+            <ComboBoxItem Content="야니케 시스타드 야콥슨" Width="193"/>
+            <ComboBoxItem Content="야마다 나오코" Width="193"/>
+            <ComboBoxItem Content="야마모토 야스이치로" Width="193"/>
+            <ComboBoxItem Content="야마시타 노부히로" Width="193"/>
+            <ComboBoxItem Content="얀 리벡" Width="193"/>
+            <ComboBoxItem Content="얀 흐레베이크" Width="193"/>
+            <ComboBoxItem Content="양 리" Width="193"/>
+            <ComboBoxItem Content="양 쉬우펭" Width="193"/>
+            <ComboBoxItem Content="양백견" Width="193"/>
+            <ComboBoxItem Content="양야체" Width="193"/>
+            <ComboBoxItem Content="양영희" Width="193"/>
+            <ComboBoxItem Content="양은용" Width="193"/>
+            <ComboBoxItem Content="양정호" Width="193"/>
+            <ComboBoxItem Content="어일선" Width="193"/>
+            <ComboBoxItem Content="에노모토 토시로" Width="193"/>
+            <ComboBoxItem Content="에두아르도 로드리게즈" Width="193"/>
+            <ComboBoxItem Content="에두아르드 코르테스" Width="193"/>
+            <ComboBoxItem Content="에두와르도 슐츠" Width="193"/>
+            <ComboBoxItem Content="에드 게스-도넬리" Width="193"/>
+            <ComboBoxItem Content="에란 크리비" Width="193"/>
+            <ComboBoxItem Content="에릭 다넬" Width="193"/>
+            <ComboBoxItem Content="에릭 델라바레" Width="193"/>
+            <ComboBoxItem Content="에릭 매닝" Width="193"/>
+            <ComboBoxItem Content="에릭 바레트" Width="193"/>
+            <ComboBoxItem Content="에릭 베스나드" Width="193"/>
+            <ComboBoxItem Content="에릭 이스튼버그" Width="193"/>
+            <ComboBoxItem Content="에릭 제노비스" Width="193"/>
+            <ComboBoxItem Content="에릭 톨레다노" Width="193"/>
+            <ComboBoxItem Content="에릭 포스버그" Width="193"/>
+            <ComboBoxItem Content="에스벤 토프트 야콥슨" Width="193"/>
+            <ComboBoxItem Content="에이케이쥐" Width="193"/>
+            <ComboBoxItem Content="에히디오 코치미글리오" Width="193"/>
+            <ComboBoxItem Content="엔리케 가토" Width="193"/>
+            <ComboBoxItem Content="엔조 달로" Width="193"/>
+            <ComboBoxItem Content="엘레나 코발레바" Width="193"/>
+            <ComboBoxItem Content="엘렌 스미트" Width="193"/>
+            <ComboBoxItem Content="엘리스 로버트슨" Width="193"/>
+            <ComboBoxItem Content="엘리시아 모신스키" Width="193"/>
+            <ComboBoxItem Content="예스퍼 묄러" Width="193"/>
+            <ComboBoxItem Content="오기가미 나오코" Width="193"/>
+            <ComboBoxItem Content="오기환" Width="193"/>
+            <ComboBoxItem Content="오렌 캐플란" Width="193"/>
+            <ComboBoxItem Content="오멸" Width="193"/>
+            <ComboBoxItem Content="오스카 요나손" Width="193"/>
+            <ComboBoxItem Content="오영두" Width="193"/>
+            <ComboBoxItem Content="오오토모 케이시" Width="193"/>
+            <ComboBoxItem Content="오츠카 유키" Width="193"/>
+            <ComboBoxItem Content="오카모토 후토시" Width="193"/>
+            <ComboBoxItem Content="오카무라 텐사이" Width="193"/>
+            <ComboBoxItem Content="오쿠 와타루" Width="193"/>
+            <ComboBoxItem Content="오키우라 히로유키" Width="193"/>
+            <ComboBoxItem Content="오키타 슈이치" Width="193"/>
+            <ComboBoxItem Content="오토모 가츠히로" Width="193"/>
+            <ComboBoxItem Content="올 파커" Width="193"/>
+            <ComboBoxItem Content="올레 쉘" Width="193"/>
+            <ComboBoxItem Content="올리버 스톤" Width="193"/>
+            <ComboBoxItem Content="올리버 파커" Width="193"/>
+            <ComboBoxItem Content="올리비에 나카슈" Width="193"/>
+            <ComboBoxItem Content="올리비에 다한" Width="193"/>
+            <ComboBoxItem Content="올리비에 마르셸" Width="193"/>
+            <ComboBoxItem Content="올리비에 메가톤" Width="193"/>
+            <ComboBoxItem Content="와타나베 세이키" Width="193"/>
+            <ComboBoxItem Content="와타나베 타카후미" Width="193"/>
+            <ComboBoxItem Content="와타베 세이치" Width="193"/>
+            <ComboBoxItem Content="요네타니 요시토모" Width="193"/>
+            <ComboBoxItem Content="요르겐 레르담" Width="193"/>
+            <ComboBoxItem Content="요르그 일레" Width="193"/>
+            <ComboBoxItem Content="요시 새슨" Width="193"/>
+            <ComboBoxItem Content="요시노 히로시" Width="193"/>
+            <ComboBoxItem Content="요시다 료코" Width="193"/>
+            <ComboBoxItem Content="요시다 코우다" Width="193"/>
+            <ComboBoxItem Content="요코야마 카즈히로" Width="193"/>
+            <ComboBoxItem Content="우다 고노스케" Width="193"/>
+            <ComboBoxItem Content="우디 알렌" Width="193"/>
+            <ComboBoxItem Content="우민호" Width="193"/>
+            <ComboBoxItem Content="우선호" Width="193"/>
+            <ComboBoxItem Content="우슬라 마이어" Width="193"/>
+            <ComboBoxItem Content="우에노 토시야" Width="193"/>
+            <ComboBoxItem Content="우인태" Width="193"/>
+            <ComboBoxItem Content="울프 시르머" Width="193"/>
+            <ComboBoxItem Content="월리엄 크리스티" Width="193"/>
+            <ComboBoxItem Content="웨스 앤더슨" Width="193"/>
+            <ComboBoxItem Content="웨인 쏜리" Width="193"/>
+            <ComboBoxItem Content="위트 스틸먼" Width="193"/>
+            <ComboBoxItem Content="윌리 데커" Width="193"/>
+            <ComboBoxItem Content="윌리엄 모나한" Width="193"/>
+            <ComboBoxItem Content="윌리엄 프리드킨" Width="193"/>
+            <ComboBoxItem Content="유사 카즈히사" Width="193"/>
+            <ComboBoxItem Content="유승택" Width="193"/>
+            <ComboBoxItem Content="유야마 쿠니히코" Width="193"/>
+            <ComboBoxItem Content="유지태" Width="193"/>
+            <ComboBoxItem Content="유하" Width="193"/>
+            <ComboBoxItem Content="유형" Width="193"/>
+            <ComboBoxItem Content="유호 히토시" Width="193"/>
+            <ComboBoxItem Content="유호진" Width="193"/>
+            <ComboBoxItem Content="육상효" Width="193"/>
+            <ComboBoxItem Content="윤종빈" Width="193"/>
+            <ComboBoxItem Content="윤종찬" Width="193"/>
+            <ComboBoxItem Content="윤학렬" Width="193"/>
+            <ComboBoxItem Content="이경호" Width="193"/>
+            <ComboBoxItem Content="이광국" Width="193"/>
+            <ComboBoxItem Content="이근우" Width="193"/>
+            <ComboBoxItem Content="이기니오 스트라피" Width="193"/>
+            <ComboBoxItem Content="이나 예블라니코바" Width="193"/>
+            <ComboBoxItem Content="이네 살림" Width="193"/>
+            <ComboBoxItem Content="이대희" Width="193"/>
+            <ComboBoxItem Content="이동승" Width="193"/>
+            <ComboBoxItem Content="이두용" Width="193"/>
+            <ComboBoxItem Content="이마오카 신지" Width="193"/>
+            <ComboBoxItem Content="이마카케 이사무" Width="193"/>
+            <ComboBoxItem Content="이사무엘" Width="193"/>
+            <ComboBoxItem Content="이사카와 히토시" Width="193"/>
+            <ComboBoxItem Content="이상빈" Width="193"/>
+            <ComboBoxItem Content="이상우" Width="193"/>
+            <ComboBoxItem Content="이상철" Width="193"/>
+            <ComboBoxItem Content="이석훈" Width="193"/>
+            <ComboBoxItem Content="이세야 유스케" Width="193"/>
+            <ComboBoxItem Content="이세일" Width="193"/>
+            <ComboBoxItem Content="이송희일" Width="193"/>
+            <ComboBoxItem Content="이수성" Width="193"/>
+            <ComboBoxItem Content="이수연" Width="193"/>
+            <ComboBoxItem Content="이수정" Width="193"/>
+            <ComboBoxItem Content="이숭환" Width="193"/>
+            <ComboBoxItem Content="이승준" Width="193"/>
+            <ComboBoxItem Content="이시바시 요시마사" Width="193"/>
+            <ComboBoxItem Content="이시오카 마사토" Width="193"/>
+            <ComboBoxItem Content="이시카와 킨" Width="193"/>
+            <ComboBoxItem Content="이시카와 히토시" Width="193"/>
+            <ComboBoxItem Content="이와사키 토모코" Width="193"/>
+            <ComboBoxItem Content="이용주" Width="193"/>
+            <ComboBoxItem Content="이원석" Width="193"/>
+            <ComboBoxItem Content="이원식" Width="193"/>
+            <ComboBoxItem Content="이윤형" Width="193"/>
+            <ComboBoxItem Content="이인항" Width="193"/>
+            <ComboBoxItem Content="이장호" Width="193"/>
+            <ComboBoxItem Content="이재용" Width="193"/>
+            <ComboBoxItem Content="이정원" Width="193"/>
+            <ComboBoxItem Content="이정호" Width="193"/>
+            <ComboBoxItem Content="이정황" Width="193"/>
+            <ComboBoxItem Content="이종필" Width="193"/>
+            <ComboBoxItem Content="이주헌" Width="193"/>
+            <ComboBoxItem Content="이즈치 키슈" Width="193"/>
+            <ComboBoxItem Content="이지승" Width="193"/>
+            <ComboBoxItem Content="이창재" Width="193"/>
+            <ComboBoxItem Content="이케다 치히로" Width="193"/>
+            <ComboBoxItem Content="이현철" Width="193"/>
+            <ComboBoxItem Content="이홍재" Width="193"/>
+            <ComboBoxItem Content="이환경" Width="193"/>
+            <ComboBoxItem Content="인진미" Width="193"/>
+            <ComboBoxItem Content="임대웅" Width="193"/>
+            <ComboBoxItem Content="임상수" Width="193"/>
+            <ComboBoxItem Content="임상윤" Width="193"/>
+            <ComboBoxItem Content="임순례" Width="193"/>
+            <ComboBoxItem Content="임진순" Width="193"/>
+            <ComboBoxItem Content="임초현" Width="193"/>
+            <ComboBoxItem Content="임태형" Width="193"/>
+            <ComboBoxItem Content="임필성" Width="193"/>
+            <ComboBoxItem Content="임흥순" Width="193"/>
+            <ComboBoxItem Content="잉마르 베리만" Width="193"/>
+            <ComboBoxItem Content="자비에 보브와" Width="193"/>
+            <ComboBoxItem Content="자비에 장" Width="193"/>
+            <ComboBoxItem Content="자비에 팔뤼" Width="193"/>
+            <ComboBoxItem Content="자크 오디아르" Width="193"/>
+            <ComboBoxItem Content="장 뤽 고다르" Width="193"/>
+            <ComboBoxItem Content="장 마크 발레" Width="193"/>
+            <ComboBoxItem Content="장 클로드 브리소" Width="193"/>
+            <ComboBoxItem Content="장 폴 살로메" Width="193"/>
+            <ComboBoxItem Content="장 피에로 포넬" Width="193"/>
+            <ComboBoxItem Content="장 피에르 다르덴" Width="193"/>
+            <ComboBoxItem Content="장 피에르 아메리스" Width="193"/>
+            <ComboBoxItem Content="장 피에르 주네" Width="193"/>
+            <ComboBoxItem Content="장-루프 펠리시올리" Width="193"/>
+            <ComboBoxItem Content="장-클리스토페 리에" Width="193"/>
+            <ComboBoxItem Content="장건재" Width="193"/>
+            <ComboBoxItem Content="장규성" Width="193"/>
+            <ComboBoxItem Content="장영치" Width="193"/>
+            <ComboBoxItem Content="장윤현" Width="193"/>
+            <ComboBoxItem Content="장철수" Width="193"/>
+            <ComboBoxItem Content="장희철" Width="193"/>
+            <ComboBoxItem Content="재키 카투" Width="193"/>
+            <ComboBoxItem Content="잭 스나이더" Width="193"/>
+            <ComboBoxItem Content="저스틴 린" Width="193"/>
+            <ComboBoxItem Content="저스틴 잭햄" Width="193"/>
+            <ComboBoxItem Content="저스틴 채드윅" Width="193"/>
+            <ComboBoxItem Content="전계수" Width="193"/>
+            <ComboBoxItem Content="전국위" Width="193"/>
+            <ComboBoxItem Content="전규환" Width="193"/>
+            <ComboBoxItem Content="전문기" Width="193"/>
+            <ComboBoxItem Content="전수일" Width="193"/>
+            <ComboBoxItem Content="전화성" Width="193"/>
+            <ComboBoxItem Content="정근섭" Width="193"/>
+            <ComboBoxItem Content="정기훈" Width="193"/>
+            <ComboBoxItem Content="정대건" Width="193"/>
+            <ComboBoxItem Content="정범식" Width="193"/>
+            <ComboBoxItem Content="정병길" Width="193"/>
+            <ComboBoxItem Content="정보서" Width="193"/>
+            <ComboBoxItem Content="정승구" Width="193"/>
+            <ComboBoxItem Content="정용기" Width="193"/>
+            <ComboBoxItem Content="정용주" Width="193"/>
+            <ComboBoxItem Content="정익환" Width="193"/>
+            <ComboBoxItem Content="정재은" Width="193"/>
+            <ComboBoxItem Content="정지영" Width="193"/>
+            <ComboBoxItem Content="정지우" Width="193"/>
+            <ComboBoxItem Content="정하린" Width="193"/>
+            <ComboBoxItem Content="제니퍼 챔버스 린치" Width="193"/>
+            <ComboBoxItem Content="제롬 데스챔프" Width="193"/>
+            <ComboBoxItem Content="제시 페레츠" Width="193"/>
+            <ComboBoxItem Content="제이 챈드라세카" Width="193"/>
+            <ComboBoxItem Content="제이다 핀켓 스미스" Width="193"/>
+            <ComboBoxItem Content="제이민" Width="193"/>
+            <ComboBoxItem Content="제이슨 무어" Width="193"/>
+            <ComboBoxItem Content="제이콥 아론 에스테스" Width="193"/>
+            <ComboBoxItem Content="제이크 슈레이어" Width="193"/>
+            <ComboBoxItem Content="제이크 스코트" Width="193"/>
+            <ComboBoxItem Content="제이크 케네디" Width="193"/>
+            <ComboBoxItem Content="제임스 마쉬" Width="193"/>
+            <ComboBoxItem Content="제임스 매더스" Width="193"/>
+            <ComboBoxItem Content="제임스 맥티그" Width="193"/>
+            <ComboBoxItem Content="제임스 보빈" Width="193"/>
+            <ComboBoxItem Content="제임스 완" Width="193"/>
+            <ComboBoxItem Content="제임스 왓킨스" Width="193"/>
+            <ComboBoxItem Content="제제 다카히사" Width="193"/>
+            <ComboBoxItem Content="제프 니콜스" Width="193"/>
+            <ComboBoxItem Content="제프 첼렌타노" Width="193"/>
+            <ComboBoxItem Content="조 라이트" Width="193"/>
+            <ComboBoxItem Content="조 쉐인" Width="193"/>
+            <ComboBoxItem Content="조 스완버그" Width="193"/>
+            <ComboBoxItem Content="조 카나한" Width="193"/>
+            <ComboBoxItem Content="조근현" Width="193"/>
+            <ComboBoxItem Content="조나단 글렌드닝" Width="193"/>
+            <ComboBoxItem Content="조나단 레빈" Width="193"/>
+            <ComboBoxItem Content="조나단 리브스만" Width="193"/>
+            <ComboBoxItem Content="조동오" Width="193"/>
+            <ComboBoxItem Content="조디 포스터" Width="193"/>
+            <ComboBoxItem Content="조르고스 란시모스" Width="193"/>
+            <ComboBoxItem Content="조림산" Width="193"/>
+            <ComboBoxItem Content="조병옥" Width="193"/>
+            <ComboBoxItem Content="조성규" Width="193"/>
+            <ComboBoxItem Content="조성형" Width="193"/>
+            <ComboBoxItem Content="조성희" Width="193"/>
+            <ComboBoxItem Content="조셉 코신스키" Width="193"/>
+            <ComboBoxItem Content="조쉬 스텐펠드" Width="193"/>
+            <ComboBoxItem Content="조쉬 트랭크" Width="193"/>
+            <ComboBoxItem Content="조슈아 세프텔" Width="193"/>
+            <ComboBoxItem Content="조스 웨던" Width="193"/>
+            <ComboBoxItem Content="조우 사다오" Width="193"/>
+            <ComboBoxItem Content="조정래" Width="193"/>
+            <ComboBoxItem Content="조조 히데오" Width="193"/>
+            <ComboBoxItem Content="조조 히데오 / 죠죠 히데오" Width="193"/>
+            <ComboBoxItem Content="조지 밀러" Width="193"/>
+            <ComboBoxItem Content="조지 클루니" Width="193"/>
+            <ComboBoxItem Content="조지 토레그로사" Width="193"/>
+            <ComboBoxItem Content="조진규" Width="193"/>
+            <ComboBoxItem Content="존 건" Width="193"/>
+            <ComboBoxItem Content="존 굴러거" Width="193"/>
+            <ComboBoxItem Content="존 도일" Width="193"/>
+            <ComboBoxItem Content="존 랜디스" Width="193"/>
+            <ComboBoxItem Content="존 매든" Width="193"/>
+            <ComboBoxItem Content="존 무어" Width="193"/>
+            <ComboBoxItem Content="존 스톡웰" Width="193"/>
+            <ComboBoxItem Content="존 추" Width="193"/>
+            <ComboBoxItem Content="존 하이암즈" Width="193"/>
+            <ComboBoxItem Content="존 허위츠" Width="193"/>
+            <ComboBoxItem Content="존 힐코트" Width="193"/>
+            <ComboBoxItem Content="주현량" Width="193"/>
+            <ComboBoxItem Content="줄리 베르토첼리" Width="193"/>
+            <ComboBoxItem Content="줄리 앤 로빈슨" Width="193"/>
+            <ComboBoxItem Content="줄리앙 마그넷" Width="193"/>
+            <ComboBoxItem Content="줄리앙 카본" Width="193"/>
+            <ComboBoxItem Content="지넴 사카오글루" Width="193"/>
+            <ComboBoxItem Content="지민" Width="193"/>
+            <ComboBoxItem Content="지율" Width="193"/>
+            <ComboBoxItem Content="지하진" Width="193"/>
+            <ComboBoxItem Content="진가상" Width="193"/>
+            <ComboBoxItem Content="진광교" Width="193"/>
+            <ComboBoxItem Content="진국부" Width="193"/>
+            <ComboBoxItem Content="진목승" Width="193"/>
+            <ComboBoxItem Content="진승현" Width="193"/>
+            <ComboBoxItem Content="진재운" Width="193"/>
+            <ComboBoxItem Content="진형태" Width="193"/>
+            <ComboBoxItem Content="진훈기" Width="193"/>
+            <ComboBoxItem Content="짐 믹클" Width="193"/>
+            <ComboBoxItem Content="찰리 프리드릭스" Width="193"/>
+            <ComboBoxItem Content="천정훈" Width="193"/>
+            <ComboBoxItem Content="첸  진" Width="193"/>
+            <ComboBoxItem Content="첸 카이거" Width="193"/>
+            <ComboBoxItem Content="최동훈" Width="193"/>
+            <ComboBoxItem Content="최승호" Width="193"/>
+            <ComboBoxItem Content="최영석" Width="193"/>
+            <ComboBoxItem Content="최용석" Width="193"/>
+            <ComboBoxItem Content="최종태" Width="193"/>
+            <ComboBoxItem Content="최진성" Width="193"/>
+            <ComboBoxItem Content="추창민" Width="193"/>
+            <ComboBoxItem Content="치로 카펠라리" Width="193"/>
+            <ComboBoxItem Content="카나자와 카츠지" Width="193"/>
+            <ComboBoxItem Content="카를레스 토라스" Width="193"/>
+            <ComboBoxItem Content="카를로 미라벨라 데이비스" Width="193"/>
+            <ComboBoxItem Content="카를로스 레이가다스" Width="193"/>
+            <ComboBoxItem Content="카메론 크로우" Width="193"/>
+            <ComboBoxItem Content="카모가와 테츠로" Width="193"/>
+            <ComboBoxItem Content="카미야마 켄지" Width="193"/>
+            <ComboBoxItem Content="카사기 노조무" Width="193"/>
+            <ComboBoxItem Content="카스퍼 바포드" Width="193"/>
+            <ComboBoxItem Content="카와노 고우시" Width="193"/>
+            <ComboBoxItem Content="카와무라 키요토" Width="193"/>
+            <ComboBoxItem Content="카일 발다" Width="193"/>
+            <ComboBoxItem Content="카타오카 슈지" Width="193"/>
+            <ComboBoxItem Content="카트린느 브레이야" Width="193"/>
+            <ComboBoxItem Content="칸 테츠" Width="193"/>
+            <ComboBoxItem Content="칸바라 이구토" Width="193"/>
+            <ComboBoxItem Content="칸치쿠 유리" Width="193"/>
+            <ComboBoxItem Content="캐리 주스넌" Width="193"/>
+            <ComboBoxItem Content="캐서린 비글로우" Width="193"/>
+            <ComboBoxItem Content="커크 드 미코" Width="193"/>
+            <ComboBoxItem Content="케빈 맥도널드" Width="193"/>
+            <ComboBoxItem Content="케빈 카러웨이" Width="193"/>
+            <ComboBoxItem Content="켄 로치" Width="193"/>
+            <ComboBoxItem Content="켄 스콧" Width="193"/>
+            <ComboBoxItem Content="켄 콰피스" Width="193"/>
+            <ComboBoxItem Content="코너 맥퍼슨" Width="193"/>
+            <ComboBoxItem Content="코디 자렛" Width="193"/>
+            <ComboBoxItem Content="코바야시 츠네오" Width="193"/>
+            <ComboBoxItem Content="코우야 타다시" Width="193"/>
+            <ComboBoxItem Content="콘래드 베논" Width="193"/>
+            <ComboBoxItem Content="콘래드 잭슨" Width="193"/>
+            <ComboBoxItem Content="쿄우야 타다시" Width="193"/>
+            <ComboBoxItem Content="쿠로사기 히로시" Width="193"/>
+            <ComboBoxItem Content="쿠보데라 카즈토" Width="193"/>
+            <ComboBoxItem Content="쿠보오카 토시유키" Width="193"/>
+            <ComboBoxItem Content="쿠스바 고조" Width="193"/>
+            <ComboBoxItem Content="쿠엔틴 리" Width="193"/>
+            <ComboBoxItem Content="쿠엔틴 타란티노" Width="193"/>
+            <ComboBoxItem Content="크리스 고락" Width="193"/>
+            <ComboBoxItem Content="크리스 답킨스" Width="193"/>
+            <ComboBoxItem Content="크리스 리노드" Width="193"/>
+            <ComboBoxItem Content="크리스 무어" Width="193"/>
+            <ComboBoxItem Content="크리스 밀러" Width="193"/>
+            <ComboBoxItem Content="크리스 버틀러" Width="193"/>
+            <ComboBoxItem Content="크리스 샌더스" Width="193"/>
+            <ComboBoxItem Content="크리스 웨이츠" Width="193"/>
+            <ComboBoxItem Content="크리스 크라우스" Width="193"/>
+            <ComboBoxItem Content="크리스토퍼 N 로우리" Width="193"/>
+            <ComboBoxItem Content="크리스토퍼 놀란" Width="193"/>
+            <ComboBoxItem Content="크리스토퍼 레이" Width="193"/>
+            <ComboBoxItem Content="크리스토퍼 로빈 콜린스" Width="193"/>
+            <ComboBoxItem Content="크리스토퍼 맥쿼리" Width="193"/>
+            <ComboBoxItem Content="크리스토퍼 애슐리" Width="193"/>
+            <ComboBoxItem Content="크리스토프 오노레" Width="193"/>
+            <ComboBoxItem Content="크리스티안 E.크리스티안센" Width="193"/>
+            <ComboBoxItem Content="크리스티안 펫졸드" Width="193"/>
+            <ComboBoxItem Content="크리스티안 히메네즈" Width="193"/>
+            <ComboBoxItem Content="크리스티앙 문쥬" Width="193"/>
+            <ComboBoxItem Content="클라우스 해로" Width="193"/>
+            <ComboBoxItem Content="클로딘 누가레" Width="193"/>
+            <ComboBoxItem Content="키오니 왁스먼" Width="193"/>
+            <ComboBoxItem Content="키타가와 에리코" Width="193"/>
+            <ComboBoxItem Content="타나다 유키" Width="193"/>
+            <ComboBoxItem Content="타니구치 고로" Width="193"/>
+            <ComboBoxItem Content="타니아 웩슬러" Width="193"/>
+            <ComboBoxItem Content="타라 퍼니아" Width="193"/>
+            <ComboBoxItem Content="타셈 싱" Width="193"/>
+            <ComboBoxItem Content="타일러 페리" Width="193"/>
+            <ComboBoxItem Content="타지리 유지" Width="193"/>
+            <ComboBoxItem Content="타카하라 히데카즈" Width="193"/>
+            <ComboBoxItem Content="타케모토 노보루" Width="193"/>
+            <ComboBoxItem Content="타케우치 요시오" Width="193"/>
+            <ComboBoxItem Content="타케키요 히토시" Width="193"/>
+            <ComboBoxItem Content="태준식" Width="193"/>
+            <ComboBoxItem Content="토노 에란도" Width="193"/>
+            <ComboBoxItem Content="토니 골드윈" Width="193"/>
+            <ComboBoxItem Content="토니 길로이" Width="193"/>
+            <ComboBoxItem Content="토니 크란츠" Width="193"/>
+            <ComboBoxItem Content="토니 탕" Width="193"/>
+            <ComboBoxItem Content="토마스 보덴스타인" Width="193"/>
+            <ComboBoxItem Content="토마스 빈터베르그" Width="193"/>
+            <ComboBoxItem Content="토마스 알프레드슨" Width="193"/>
+            <ComboBoxItem Content="토마스 하우엘" Width="193"/>
+            <ComboBoxItem Content="토머스 딕슨" Width="193"/>
+            <ComboBoxItem Content="토모마츠 나오유키" Width="193"/>
+            <ComboBoxItem Content="토모마치 나오유키" Width="193"/>
+            <ComboBoxItem Content="토미 위르콜라" Width="193"/>
+            <ComboBoxItem Content="토비 젠켈" Width="193"/>
+            <ComboBoxItem Content="토비아스 폴크" Width="193"/>
+            <ComboBoxItem Content="톰 맥그라스" Width="193"/>
+            <ComboBoxItem Content="톰 맥카시" Width="193"/>
+            <ComboBoxItem Content="톰 튀크베어" Width="193"/>
+            <ComboBoxItem Content="톰 후퍼" Width="193"/>
+            <ComboBoxItem Content="트리스탄 바우에르" Width="193"/>
+            <ComboBoxItem Content="티 웨스트" Width="193"/>
+            <ComboBoxItem Content="티모 부오렌솔라" Width="193"/>
+            <ComboBoxItem Content="티무르 베크맘베토브" Width="193"/>
+            <ComboBoxItem Content="팀 버튼" Width="193"/>
+            <ComboBoxItem Content="파라 칸" Width="193"/>
+            <ComboBoxItem Content="파르한 악타르" Width="193"/>
+            <ComboBoxItem Content="파스칼 쇼메유" Width="193"/>
+            <ComboBoxItem Content="파스칼 포자두" Width="193"/>
+            <ComboBoxItem Content="파스칼 헤롤드" Width="193"/>
+            <ComboBoxItem Content="파올로 소렌티노" Width="193"/>
+            <ComboBoxItem Content="파올로 타비아니" Width="193"/>
+            <ComboBoxItem Content="파우스토 브리찌" Width="193"/>
+            <ComboBoxItem Content="파울 슈마츠니" Width="193"/>
+            <ComboBoxItem Content="파웰 포리코브스키" Width="193"/>
+            <ComboBoxItem Content="파코 플라자" Width="193"/>
+            <ComboBoxItem Content="파트리스 르꽁트" Width="193"/>
+            <ComboBoxItem Content="패디 콘시딘" Width="193"/>
+            <ComboBoxItem Content="팰림 맥더모트" Width="193"/>
+            <ComboBoxItem Content="페데리코 모시아" Width="193"/>
+            <ComboBoxItem Content="페르난도 트루에바" Width="193"/>
+            <ComboBoxItem Content="페오 알라다그" Width="193"/>
+            <ComboBoxItem Content="펫챠이 왕캄라오" Width="193"/>
+            <ComboBoxItem Content="폴 W.S. 앤더슨" Width="193"/>
+            <ComboBoxItem Content="폴 사피아노" Width="193"/>
+            <ComboBoxItem Content="폴 앤드류 윌리엄스" Width="193"/>
+            <ComboBoxItem Content="표도르 본다르추크" Width="193"/>
+            <ComboBoxItem Content="표만석" Width="193"/>
+            <ComboBoxItem Content="프라챠 핀카엡" Width="193"/>
+            <ComboBoxItem Content="프라파스 콜사라논" Width="193"/>
+            <ComboBoxItem Content="프란트 궈" Width="193"/>
+            <ComboBoxItem Content="프레데릭 와이즈만" Width="193"/>
+            <ComboBoxItem Content="프레드 쉐피시" Width="193"/>
+            <ComboBoxItem Content="프레드 카바예" Width="193"/>
+            <ComboBoxItem Content="플로렝 에밀리오 시리" Width="193"/>
+            <ComboBoxItem Content="피셔 스티븐스" Width="193"/>
+            <ComboBoxItem Content="피에그 루이기 사마라타니" Width="193"/>
+            <ComboBoxItem Content="피오나 고든" Width="193"/>
+            <ComboBoxItem Content="피터 도드" Width="193"/>
+            <ComboBoxItem Content="피터 램지" Width="193"/>
+            <ComboBoxItem Content="피터 레페니오티스" Width="193"/>
+            <ComboBoxItem Content="피터 버그" Width="193"/>
+            <ComboBoxItem Content="피터 잭슨" Width="193"/>
+            <ComboBoxItem Content="피터 휴익" Width="193"/>
+            <ComboBoxItem Content="피트 트래비스" Width="193"/>
+            <ComboBoxItem Content="필국지" Width="193"/>
+            <ComboBoxItem Content="필리다 로이드" Width="193"/>
+            <ComboBoxItem Content="필리프 팔라도" Width="193"/>
+            <ComboBoxItem Content="하갈 벤 애셔" Width="193"/>
+            <ComboBoxItem Content="하나부사 츠토무" Width="193"/>
+            <ComboBoxItem Content="하라 케이이치" Width="193"/>
+            <ComboBoxItem Content="하바라 노부유시" Width="193"/>
+            <ComboBoxItem Content="하비에르 마리스칼" Width="193"/>
+            <ComboBoxItem Content="하스미 에이이치로" Width="193"/>
+            <ComboBoxItem Content="하야토 다테" Width="193"/>
+            <ComboBoxItem Content="하우메 발라게로" Width="193"/>
+            <ComboBoxItem Content="하워드 베이커" Width="193"/>
+            <ComboBoxItem Content="한상호" Width="193"/>
+            <ComboBoxItem Content="한상희" Width="193"/>
+            <ComboBoxItem Content="한지승" Width="193"/>
+            <ComboBoxItem Content="한지원" Width="193"/>
+            <ComboBoxItem Content="허안화" Width="193"/>
+            <ComboBoxItem Content="허재형" Width="193"/>
+            <ComboBoxItem Content="허진호" Width="193"/>
+            <ComboBoxItem Content="허철" Width="193"/>
+            <ComboBoxItem Content="헤이든 쉬로스버그" Width="193"/>
+            <ComboBoxItem Content="헨닝 칼슨" Width="193"/>
+            <ComboBoxItem Content="헨리 유스트" Width="193"/>
+            <ComboBoxItem Content="헬렌 헌트" Width="193"/>
+            <ComboBoxItem Content="헬머 피셔" Width="193"/>
+            <ComboBoxItem Content="호거 태프" Width="193"/>
+            <ComboBoxItem Content="호라이 타다아키" Width="193"/>
+            <ComboBoxItem Content="호르모즈" Width="193"/>
+            <ComboBoxItem Content="호리우치 히로시" Width="193"/>
+            <ComboBoxItem Content="호리키리조노 켄타로" Width="193"/>
+            <ComboBoxItem Content="호베흐또 가흐제이휴" Width="193"/>
+            <ComboBoxItem Content="호소다 마모루" Width="193"/>
+            <ComboBoxItem Content="호요휘" Width="193"/>
+            <ComboBoxItem Content="홍상수" Width="193"/>
+            <ComboBoxItem Content="홍지영" Width="193"/>
+            <ComboBoxItem Content="홍지유" Width="193"/>
+            <ComboBoxItem Content="황명승" Width="193"/>
+            <ComboBoxItem Content="황조권" Width="193"/>
+            <ComboBoxItem Content="황희성" Width="193"/>
+            <ComboBoxItem Content="후미히로 요시무라" Width="193"/>
+            <ComboBoxItem Content="후안 디에고 솔라나스" Width="193"/>
+            <ComboBoxItem Content="후안 안토니오 바요나" Width="193"/>
+            <ComboBoxItem Content="후지모리 마사야" Width="193"/>
+            <ComboBoxItem Content="후지와라 켄이치" Width="193"/>
+            <ComboBoxItem Content="후지와라 타카시" Width="193"/>
+            <ComboBoxItem Content="후쿠오카 요시호" Width="193"/>
+            <ComboBoxItem Content="히가시 요이치" Width="193"/>
+            <ComboBoxItem Content="히로타 미키오" Width="193"/>
+            <ComboBoxItem Content="히시다 마사카즈" Width="193"/>
+            <ComboBoxItem Content="히암 압바스" Width="193"/>
+        </ComboBox>
         <Label Content="Season :" HorizontalAlignment="Left" Margin="12,57,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.894,1.128" Grid.ColumnSpan="4"/>
-        <ComboBox HorizontalAlignment="Left" Margin="16,58,0,0" VerticalAlignment="Top" Width="193" Name="seasonCbox" Grid.Column="4"/>
+        <ComboBox HorizontalAlignment="Left" Margin="16,58,0,0" VerticalAlignment="Top" Width="193" Name="seasonCbox" Grid.Column="4">
+        <ComboBoxItem Content="봄" Width="193"/>
+        <ComboBoxItem Content="여름" Width="193"/>
+        <ComboBoxItem Content="가을" Width="193"/>
+        <ComboBoxItem Content="겨울" Width="193"/>
+        </ComboBox>
         <Label Content="Production Company :" HorizontalAlignment="Left" Margin="12,85,0,0" VerticalAlignment="Top" Grid.ColumnSpan="5"/>
-        <ComboBox HorizontalAlignment="Left" Margin="16,85,0,0" VerticalAlignment="Top" Width="193" Name="productionCompanyCbox" Grid.Column="4"/>
+        <ComboBox HorizontalAlignment="Left" Margin="16,85,0,0" VerticalAlignment="Top" Width="193" Name="productionCompanyCbox" Grid.Column="4">
+            <ComboBoxItem Content="(유)에이디사공육" Width="193"/>
+            <ComboBoxItem Content="(재)전주국제영화제조직위원회" Width="193"/>
+            <ComboBoxItem Content="(주)51k" Width="193"/>
+            <ComboBoxItem Content="(주)CMG초록별" Width="193"/>
+            <ComboBoxItem Content="(주)고맙습니다사랑합니다" Width="193"/>
+            <ComboBoxItem Content="(주)고스트픽처스" Width="193"/>
+            <ComboBoxItem Content="(주)고유에프앤" Width="193"/>
+            <ComboBoxItem Content="(주)기안컬처테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)나우콘텐츠" Width="193"/>
+            <ComboBoxItem Content="(주)나이너스엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)노마드필름" Width="193"/>
+            <ComboBoxItem Content="(주)노이에스" Width="193"/>
+            <ComboBoxItem Content="(주)누리픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)다세포클럽" Width="193"/>
+            <ComboBoxItem Content="(주)대길이에스" Width="193"/>
+            <ComboBoxItem Content="(주)더블앤조이픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)더줌픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)더타워픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)데이드림서울" Width="193"/>
+            <ComboBoxItem Content="(주)데이지엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)동녘필름" Width="193"/>
+            <ComboBoxItem Content="(주)동아수출공사" Width="193"/>
+            <ComboBoxItem Content="(주)두타연" Width="193"/>
+            <ComboBoxItem Content="(주)드림써치C&amp;C" Width="193"/>
+            <ComboBoxItem Content="(주)드림웨스트픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)드림캡쳐" Width="193"/>
+            <ComboBoxItem Content="(주)디엔티미디어" Width="193"/>
+            <ComboBoxItem Content="(주)디케이미디어" Width="193"/>
+            <ComboBoxItem Content="(주)라인필름" Width="193"/>
+            <ComboBoxItem Content="(주)레드로버" Width="193"/>
+            <ComboBoxItem Content="(주)레인보우팩토리" Width="193"/>
+            <ComboBoxItem Content="(주)루믹스미디어" Width="193"/>
+            <ComboBoxItem Content="(주)마노엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)마운틴픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)맑음영화사" Width="193"/>
+            <ComboBoxItem Content="(주)매니지먼트 숲" Width="193"/>
+            <ComboBoxItem Content="(주)머스트 씨 무비" Width="193"/>
+            <ComboBoxItem Content="(주)메인타이틀픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)메인타이틀픽쳐스|영화사 마농(주)" Width="193"/>
+            <ComboBoxItem Content="(주)명필름" Width="193"/>
+            <ComboBoxItem Content="(주)무브먼트 픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)무브픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)뮤제엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)미디어로그" Width="193"/>
+            <ComboBoxItem Content="(주)미디어이야기" Width="193"/>
+            <ComboBoxItem Content="(주)미디어캐슬" Width="193"/>
+            <ComboBoxItem Content="(주)미라클필름" Width="193"/>
+            <ComboBoxItem Content="(주)미인픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)바른손" Width="193"/>
+            <ComboBoxItem Content="(주)뱅가드스튜디오" Width="193"/>
+            <ComboBoxItem Content="(주)별의별" Width="193"/>
+            <ComboBoxItem Content="(주)보리픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)부메랑모션픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)부메랑모션픽쳐스|(주)드림웨스트픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)비투이" Width="193"/>
+            <ComboBoxItem Content="(주)빨간마후라" Width="193"/>
+            <ComboBoxItem Content="(주)쁘리야" Width="193"/>
+            <ComboBoxItem Content="(주)사나이픽처스" Width="193"/>
+            <ComboBoxItem Content="(주)사람과사람" Width="193"/>
+            <ComboBoxItem Content="(주)삼거리픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)서태지컴퍼니" Width="193"/>
+            <ComboBoxItem Content="(주)소나무픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)수키픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)수필름" Width="193"/>
+            <ComboBoxItem Content="(주)스넵쏘울" Width="193"/>
+            <ComboBoxItem Content="(주)스마일이엔티" Width="193"/>
+            <ComboBoxItem Content="(주)스테이지팩토리" Width="193"/>
+            <ComboBoxItem Content="(주)스폰지이엔티" Width="193"/>
+            <ComboBoxItem Content="(주)스푸키번치" Width="193"/>
+            <ComboBoxItem Content="(주)시네마달" Width="193"/>
+            <ComboBoxItem Content="(주)시네마서비스" Width="193"/>
+            <ComboBoxItem Content="(주)싸이더스에프앤에이치" Width="193"/>
+            <ComboBoxItem Content="(주)씨네365" Width="193"/>
+            <ComboBoxItem Content="(주)씨네라인코리아" Width="193"/>
+            <ComboBoxItem Content="(주)씨네마골뱅이" Width="193"/>
+            <ComboBoxItem Content="(주)씨네이천" Width="193"/>
+            <ComboBoxItem Content="(주)씨엘엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)씨제스엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)씨타도시공간" Width="193"/>
+            <ComboBoxItem Content="(주)씨티엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)아우라픽처스" Width="193"/>
+            <ComboBoxItem Content="(주)아피아스튜디오" Width="193"/>
+            <ComboBoxItem Content="(주)애니플러스|(주)토러스엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)액티버스엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)앤드플러스미디어웍스" Width="193"/>
+            <ComboBoxItem Content="(주)에스비에스콘텐츠허브" Width="193"/>
+            <ComboBoxItem Content="(주)에스엠엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)에스와이코마드" Width="193"/>
+            <ComboBoxItem Content="(주)에이브이에이엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)에이블엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)에이씨피컴퍼니" Width="193"/>
+            <ComboBoxItem Content="(주)에이트볼픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)엔브릭스" Width="193"/>
+            <ComboBoxItem Content="(주)엠씨엠씨" Width="193"/>
+            <ComboBoxItem Content="(주)엣나인필름" Width="193"/>
+            <ComboBoxItem Content="(주)영진크리에이티브" Width="193"/>
+            <ComboBoxItem Content="(주)영화사 남원" Width="193"/>
+            <ComboBoxItem Content="(주)영화사 자미" Width="193"/>
+            <ComboBoxItem Content="(주)영화사 조제" Width="193"/>
+            <ComboBoxItem Content="(주)영화사 진진" Width="193"/>
+            <ComboBoxItem Content="(주)영화사거미" Width="193"/>
+            <ComboBoxItem Content="(주)영화사비단길" Width="193"/>
+            <ComboBoxItem Content="(주)영화사소풍" Width="193"/>
+            <ComboBoxItem Content="(주)영화사아이비젼" Width="193"/>
+            <ComboBoxItem Content="(주)영화사오름" Width="193"/>
+            <ComboBoxItem Content="(주)영화사울림" Width="193"/>
+            <ComboBoxItem Content="(주)영화사조아" Width="193"/>
+            <ComboBoxItem Content="(주)영화사채움" Width="193"/>
+            <ComboBoxItem Content="(주)영화사폴" Width="193"/>
+            <ComboBoxItem Content="(주)영화사홍" Width="193"/>
+            <ComboBoxItem Content="(주)영화제작소보임" Width="193"/>
+            <ComboBoxItem Content="(주)영화제작전원사" Width="193"/>
+            <ComboBoxItem Content="(주)오션필름" Width="193"/>
+            <ComboBoxItem Content="(주)오죤필름" Width="193"/>
+            <ComboBoxItem Content="(주)오콘" Width="193"/>
+            <ComboBoxItem Content="(주)온전한 컴퍼니" Width="193"/>
+            <ComboBoxItem Content="(주)외유내강" Width="193"/>
+            <ComboBoxItem Content="(주)울림엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)웰메이드스타엠" Width="193"/>
+            <ComboBoxItem Content="(주)유무비" Width="193"/>
+            <ComboBoxItem Content="(주)유이케이" Width="193"/>
+            <ComboBoxItem Content="(주)이대희 애니메이션스튜디오" Width="193"/>
+            <ComboBoxItem Content="(주)이든픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)인디컴미디어" Width="193"/>
+            <ComboBoxItem Content="(주)인디플러그" Width="193"/>
+            <ComboBoxItem Content="(주)인벤트스톤" Width="193"/>
+            <ComboBoxItem Content="(주)인스터피씨엠" Width="193"/>
+            <ComboBoxItem Content="(주)인앤인픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)인영트레이딩" Width="193"/>
+            <ComboBoxItem Content="(주)제이엠씨미디어" Width="193"/>
+            <ComboBoxItem Content="(주)제이와이피엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)제이케이필름" Width="193"/>
+            <ComboBoxItem Content="(주)조이앤컨텐츠그룹" Width="193"/>
+            <ComboBoxItem Content="(주)조이앤컨텐츠그룹|(주)액티버스엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)조이앤컨텐츠그룹|(주)케이알씨지" Width="193"/>
+            <ComboBoxItem Content="(주)주머니필름" Width="193"/>
+            <ComboBoxItem Content="(주)주피터필름" Width="193"/>
+            <ComboBoxItem Content="(주)진진엔터테인먼트필름" Width="193"/>
+            <ComboBoxItem Content="(주)캔들미디어" Width="193"/>
+            <ComboBoxItem Content="(주)컴퍼니엘" Width="193"/>
+            <ComboBoxItem Content="(주)케빈앤컴퍼니" Width="193"/>
+            <ComboBoxItem Content="(주)케이알씨지" Width="193"/>
+            <ComboBoxItem Content="(주)케이앤엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)케이퍼필름" Width="193"/>
+            <ComboBoxItem Content="(주)콘텐츠게이트" Width="193"/>
+            <ComboBoxItem Content="(주)크리픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)키노아이디엠씨" Width="193"/>
+            <ComboBoxItem Content="(주)키노크러시" Width="193"/>
+            <ComboBoxItem Content="(주)태원엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)테라맥스엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)토러스엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)토러스엔터테인먼트|(주)엣나인필름" Width="193"/>
+            <ComboBoxItem Content="(주)토러스엔터테인먼트|(주)트리니티네트워크" Width="193"/>
+            <ComboBoxItem Content="(주)토파즈미디어" Width="193"/>
+            <ComboBoxItem Content="(주)트로피엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)트리니티네트워크" Width="193"/>
+            <ComboBoxItem Content="(주)트리니티엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)티캐스트" Width="193"/>
+            <ComboBoxItem Content="(주)티피에스컴퍼니" Width="193"/>
+            <ComboBoxItem Content="(주)파워이엔티" Width="193"/>
+            <ComboBoxItem Content="(주)파트너스케이" Width="193"/>
+            <ComboBoxItem Content="(주)판타지오" Width="193"/>
+            <ComboBoxItem Content="(주)팔라우픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)팔레트픽처스" Width="193"/>
+            <ComboBoxItem Content="(주)퍼스트런" Width="193"/>
+            <ComboBoxItem Content="(주)펜타이엔씨" Width="193"/>
+            <ComboBoxItem Content="(주)포커스앤컴퍼니" Width="193"/>
+            <ComboBoxItem Content="(주)포켓몬코리아" Width="193"/>
+            <ComboBoxItem Content="(주)퓨어픽쳐스인터내셔널코리아" Width="193"/>
+            <ComboBoxItem Content="(주)프라이데이 엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)프레인글로벌|(주)드림웨스트픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)프리비젼엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)프리콤프로덕션" Width="193"/>
+            <ComboBoxItem Content="(주)피터팬픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)필마픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)필통픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)하리마오픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)홍필름" Width="193"/>
+            <ComboBoxItem Content="(주)화인픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)황금주전자" Width="193"/>
+            <ComboBoxItem Content="(주)황기성 사단" Width="193"/>
+            <ComboBoxItem Content="CGV 무비꼴라쥬" Width="193"/>
+            <ComboBoxItem Content="CNR미디어" Width="193"/>
+            <ComboBoxItem Content="KBS 미디어" Width="193"/>
+            <ComboBoxItem Content="KT&amp;G 상상마당 영화사업팀 컴퍼니에스에스(주)" Width="193"/>
+            <ComboBoxItem Content="LEE FILM" Width="193"/>
+            <ComboBoxItem Content="㈜MBC" Width="193"/>
+            <ComboBoxItem Content="㈜게이트픽쳐스" Width="193"/>
+            <ComboBoxItem Content="㈜더드림앤드픽쳐스" Width="193"/>
+            <ComboBoxItem Content="㈜디지아트프로덕션" Width="193"/>
+            <ComboBoxItem Content="㈜렛츠필름" Width="193"/>
+            <ComboBoxItem Content="㈜미로비젼" Width="193"/>
+            <ComboBoxItem Content="㈜사람엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="㈜세종커뮤니케이션스" Width="193"/>
+            <ComboBoxItem Content="㈜씨씨에스미디어" Width="193"/>
+            <ComboBoxItem Content="㈜영화사 백두대간" Width="193"/>
+            <ComboBoxItem Content="㈜영화사엠16" Width="193"/>
+            <ComboBoxItem Content="㈜월드시네마" Width="193"/>
+            <ComboBoxItem Content="㈜인디스토리" Width="193"/>
+            <ComboBoxItem Content="㈜전망좋은 영화사" Width="193"/>
+            <ComboBoxItem Content="㈜코리아스크린" Width="193"/>
+            <ComboBoxItem Content="㈜크래커픽쳐스" Width="193"/>
+            <ComboBoxItem Content="㈜크래커픽쳐스|(주)머스트 씨 무비" Width="193"/>
+            <ComboBoxItem Content="㈜플래니스 엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="㈜화인웍스" Width="193"/>
+            <ComboBoxItem Content="가나미디어" Width="193"/>
+            <ComboBoxItem Content="감어인 필름" Width="193"/>
+            <ComboBoxItem Content="경픽쳐스" Width="193"/>
+            <ComboBoxItem Content="골든타이드픽처스(주)" Width="193"/>
+            <ComboBoxItem Content="광화문시네마" Width="193"/>
+            <ComboBoxItem Content="구혜선 필름" Width="193"/>
+            <ComboBoxItem Content="국가인권위원회" Width="193"/>
+            <ComboBoxItem Content="굿초이스컷픽쳐스(주)" Width="193"/>
+            <ComboBoxItem Content="그린나래미디어(주)" Width="193"/>
+            <ComboBoxItem Content="김기덕 필름" Width="193"/>
+            <ComboBoxItem Content="나의PS파트너 문화산업전문회사" Width="193"/>
+            <ComboBoxItem Content="내일그리고오늘(주)" Width="193"/>
+            <ComboBoxItem Content="뉴원시네마" Width="193"/>
+            <ComboBoxItem Content="다카포필름" Width="193"/>
+            <ComboBoxItem Content="대원미디어㈜" Width="193"/>
+            <ComboBoxItem Content="더 애니메이션 픽쳐 컴퍼니" Width="193"/>
+            <ComboBoxItem Content="더 필름클래식 프로덕션" Width="193"/>
+            <ComboBoxItem Content="데이브인터랙티브" Width="193"/>
+            <ComboBoxItem Content="도키엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="독립프로덕션빨간눈사람" Width="193"/>
+            <ComboBoxItem Content="드림웍스 애니메이션" Width="193"/>
+            <ComboBoxItem Content="디 보나벤츄라 픽쳐스" Width="193"/>
+            <ComboBoxItem Content="디마엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="라이온스 게이트 필름즈" Width="193"/>
+            <ComboBoxItem Content="라인트리엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="러브락컴퍼니" Width="193"/>
+            <ComboBoxItem Content="롤러코스터" Width="193"/>
+            <ComboBoxItem Content="롯데쇼핑㈜롯데엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="리얼라이즈픽쳐스(주)" Width="193"/>
+            <ComboBoxItem Content="마스터 클래스의 산책 제작위원회" Width="193"/>
+            <ComboBoxItem Content="마포필름" Width="193"/>
+            <ComboBoxItem Content="모쿠슈라" Width="193"/>
+            <ComboBoxItem Content="모티브 필름" Width="193"/>
+            <ComboBoxItem Content="문화기획집단 영희야놀자" Width="193"/>
+            <ComboBoxItem Content="문화예술사업단 BIKI" Width="193"/>
+            <ComboBoxItem Content="미디어소프트" Width="193"/>
+            <ComboBoxItem Content="민병훈필름" Width="193"/>
+            <ComboBoxItem Content="박수건달문화산업전문(유)" Width="193"/>
+            <ComboBoxItem Content="반달" Width="193"/>
+            <ComboBoxItem Content="반이다" Width="193"/>
+            <ComboBoxItem Content="버진필름" Width="193"/>
+            <ComboBoxItem Content="보통영화사" Width="193"/>
+            <ComboBoxItem Content="볼" Width="193"/>
+            <ComboBoxItem Content="부산경남대표방송" Width="193"/>
+            <ComboBoxItem Content="블루미지" Width="193"/>
+            <ComboBoxItem Content="비즈니스네크워크" Width="193"/>
+            <ComboBoxItem Content="비트윈(주)" Width="193"/>
+            <ComboBoxItem Content="상상필름(주)" Width="193"/>
+            <ComboBoxItem Content="서울독립영화제" Width="193"/>
+            <ComboBoxItem Content="서울시 교육청" Width="193"/>
+            <ComboBoxItem Content="설문대영상" Width="193"/>
+            <ComboBoxItem Content="세도나아이(주)" Width="193"/>
+            <ComboBoxItem Content="세븐바이투픽쳐스" Width="193"/>
+            <ComboBoxItem Content="소니픽쳐스릴리징월트디즈니스튜디오스코리아(주)" Width="193"/>
+            <ComboBoxItem Content="소울다큐" Width="193"/>
+            <ComboBoxItem Content="쇼박스㈜미디어플렉스" Width="193"/>
+            <ComboBoxItem Content="스크린조이" Width="193"/>
+            <ComboBoxItem Content="스턴트코리아" Width="193"/>
+            <ComboBoxItem Content="스토리룸" Width="193"/>
+            <ComboBoxItem Content="스튜디오 오후출근" Width="193"/>
+            <ComboBoxItem Content="스파이럴 프로젝트" Width="193"/>
+            <ComboBoxItem Content="스페이스엠(주)" Width="193"/>
+            <ComboBoxItem Content="스피나치앤빈" Width="193"/>
+            <ComboBoxItem Content="시네마팩토리" Width="193"/>
+            <ComboBoxItem Content="신현원프로덕션" Width="193"/>
+            <ComboBoxItem Content="씨너스엔터테인먼트(주)" Width="193"/>
+            <ComboBoxItem Content="씨네21아이(주)" Width="193"/>
+            <ComboBoxItem Content="씨네그루(주)다우기술" Width="193"/>
+            <ComboBoxItem Content="씨네힐" Width="193"/>
+            <ComboBoxItem Content="씨제이 씨지브이(CJ CGV)(주)" Width="193"/>
+            <ComboBoxItem Content="씨제이이앤엠 주식회사" Width="193"/>
+            <ComboBoxItem Content="아시아나 국제 단편 영화제" Width="193"/>
+            <ComboBoxItem Content="아일랜드픽처스(주)" Width="193"/>
+            <ComboBoxItem Content="알토미디어(주)" Width="193"/>
+            <ComboBoxItem Content="애니박스 엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="애즈필름" Width="193"/>
+            <ComboBoxItem Content="앤에프통상" Width="193"/>
+            <ComboBoxItem Content="야간비행" Width="193"/>
+            <ComboBoxItem Content="양전프로덕션" Width="193"/>
+            <ComboBoxItem Content="어머니 제작위원회" Width="193"/>
+            <ComboBoxItem Content="얼라이브픽쳐스" Width="193"/>
+            <ComboBoxItem Content="얼리버드" Width="193"/>
+            <ComboBoxItem Content="에스비에스 바이아컴 유한회사" Width="193"/>
+            <ComboBoxItem Content="에이원엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="엔터시네마" Width="193"/>
+            <ComboBoxItem Content="엠투" Width="193"/>
+            <ComboBoxItem Content="연분홍 치마" Width="193"/>
+            <ComboBoxItem Content="영화사 도로시(주)" Width="193"/>
+            <ComboBoxItem Content="영화사 랑" Width="193"/>
+            <ComboBoxItem Content="영화사 무쇠팔" Width="193"/>
+            <ComboBoxItem Content="영화사 민들레" Width="193"/>
+            <ComboBoxItem Content="영화사 보라" Width="193"/>
+            <ComboBoxItem Content="영화사 집" Width="193"/>
+            <ComboBoxItem Content="영화사뜰(주)" Width="193"/>
+            <ComboBoxItem Content="영화사심미안(주)" Width="193"/>
+            <ComboBoxItem Content="영화사온난전선" Width="193"/>
+            <ComboBoxItem Content="영화사청어람(주)" Width="193"/>
+            <ComboBoxItem Content="영화사히트" Width="193"/>
+            <ComboBoxItem Content="영화제작소 다" Width="193"/>
+            <ComboBoxItem Content="영화제작소 정감" Width="193"/>
+            <ComboBoxItem Content="예지림엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="오드" Width="193"/>
+            <ComboBoxItem Content="오지필름" Width="193"/>
+            <ComboBoxItem Content="오퍼스픽쳐스(유)" Width="193"/>
+            <ComboBoxItem Content="올리브스튜디오" Width="193"/>
+            <ComboBoxItem Content="와이즈앤와이드엔터테인먼트(주)" Width="193"/>
+            <ComboBoxItem Content="우성엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="워너브러더스코리아(주)" Width="193"/>
+            <ComboBoxItem Content="위더스필름(주)" Width="193"/>
+            <ComboBoxItem Content="유니버설픽쳐스인터내셔널 코리아(유)" Width="193"/>
+            <ComboBoxItem Content="유니코리아문예투자㈜" Width="193"/>
+            <ComboBoxItem Content="이미지팩토리" Width="193"/>
+            <ComboBoxItem Content="이상우 필름" Width="193"/>
+            <ComboBoxItem Content="이십세기폭스 인터내셔널 프로덕션" Width="193"/>
+            <ComboBoxItem Content="이십세기폭스코리아(주)" Width="193"/>
+            <ComboBoxItem Content="이홍재 필름" Width="193"/>
+            <ComboBoxItem Content="익스트림 필름" Width="193"/>
+            <ComboBoxItem Content="잉스팅크티브 필름" Width="193"/>
+            <ComboBoxItem Content="자이온이엔티(주)" Width="193"/>
+            <ComboBoxItem Content="자파리필름" Width="193"/>
+            <ComboBoxItem Content="정지우 필름" Width="193"/>
+            <ComboBoxItem Content="제이엠지엔터테인먼트(주)" Width="193"/>
+            <ComboBoxItem Content="제이오엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="주니파워픽처스(주)" Width="193"/>
+            <ComboBoxItem Content="주식회사 뭉클픽쳐스" Width="193"/>
+            <ComboBoxItem Content="주식회사 미콘" Width="193"/>
+            <ComboBoxItem Content="주식회사 제이앤피" Width="193"/>
+            <ComboBoxItem Content="주식회사 풍경소리" Width="193"/>
+            <ComboBoxItem Content="중국오락문화투자유한회사" Width="193"/>
+            <ComboBoxItem Content="지오엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="찬란" Width="193"/>
+            <ComboBoxItem Content="청년필름(주)" Width="193"/>
+            <ComboBoxItem Content="초록의 공명" Width="193"/>
+            <ComboBoxItem Content="케이비에스미디어(주)" Width="193"/>
+            <ComboBoxItem Content="케이엠컬쳐㈜" Width="193"/>
+            <ComboBoxItem Content="크라켄" Width="193"/>
+            <ComboBoxItem Content="크리스리픽쳐스인터내셔널(주)" Width="193"/>
+            <ComboBoxItem Content="크리에이티브 이스트" Width="193"/>
+            <ComboBoxItem Content="크리에이티브컴즈(주)" Width="193"/>
+            <ComboBoxItem Content="키노망고스틴" Width="193"/>
+            <ComboBoxItem Content="킹레코드" Width="193"/>
+            <ComboBoxItem Content="타임스토리그룹(주)" Width="193"/>
+            <ComboBoxItem Content="테디웍스" Width="193"/>
+            <ComboBoxItem Content="투니버스(주)온미디어|㈜크래커픽쳐스" Width="193"/>
+            <ComboBoxItem Content="툰박스 엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="트리필름" Width="193"/>
+            <ComboBoxItem Content="파라마운트" Width="193"/>
+            <ComboBoxItem Content="파라마운트 픽쳐스" Width="193"/>
+            <ComboBoxItem Content="판씨네마㈜" Width="193"/>
+            <ComboBoxItem Content="판타지웍스엔터" Width="193"/>
+            <ComboBoxItem Content="페퍼민트앤컴퍼니" Width="193"/>
+            <ComboBoxItem Content="페퍼민트픽쳐스" Width="193"/>
+            <ComboBoxItem Content="포디렉터스" Width="193"/>
+            <ComboBoxItem Content="포커스 온" Width="193"/>
+            <ComboBoxItem Content="프로덕션 LAS" Width="193"/>
+            <ComboBoxItem Content="프로덕션 작품(주)" Width="193"/>
+            <ComboBoxItem Content="프로덕션공방" Width="193"/>
+            <ComboBoxItem Content="플라잉타이거픽처스" Width="193"/>
+            <ComboBoxItem Content="플랜 비 엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="플로우식스(주)" Width="193"/>
+            <ComboBoxItem Content="피디픽쳐스" Width="193"/>
+            <ComboBoxItem Content="피엠피앤컴퍼니" Width="193"/>
+            <ComboBoxItem Content="필라멘트픽쳐스" Width="193"/>
+            <ComboBoxItem Content="필름문" Width="193"/>
+            <ComboBoxItem Content="필름트레인" Width="193"/>
+            <ComboBoxItem Content="한국게이인권운동단체 친구사이" Width="193"/>
+            <ComboBoxItem Content="한국교육방송공사 EBS" Width="193"/>
+            <ComboBoxItem Content="한국소니픽쳐스릴리징브에나비스타영화㈜" Width="193"/>
+            <ComboBoxItem Content="한국영화아카데미" Width="193"/>
+            <ComboBoxItem Content="휠므빠말주식회사" Width="193"/>
+            <ComboBoxItem Content="히트박스" Width="193"/>
+            <ComboBoxItem Content="" Width="193"/>
+        </ComboBox>
+
         <Label Content="Genre :" HorizontalAlignment="Left" Margin="12,112,0,0" VerticalAlignment="Top" Grid.ColumnSpan="4"/>
-        <ComboBox HorizontalAlignment="Left" Margin="16,112,0,0" VerticalAlignment="Top" Width="193" Name="genreCbox" Grid.Column="4"/>
+
+        <ComboBox HorizontalAlignment="Left" Margin="16,112,0,0" VerticalAlignment="Top" Width="193" Name="genreCbox" Grid.Column="4">
+            <ComboBoxItem Content="SF" Width="193"/>
+            <ComboBoxItem Content="가족" Width="193"/>
+            <ComboBoxItem Content="공연" Width="193"/>
+            <ComboBoxItem Content="공포(호러)" Width="193"/>
+            <ComboBoxItem Content="기타" Width="193"/>
+            <ComboBoxItem Content="다큐멘터리" Width="193"/>
+            <ComboBoxItem Content="드라마" Width="193"/>
+            <ComboBoxItem Content="멜로/로맨스" Width="193"/>
+            <ComboBoxItem Content="멜로/애정/로맨스" Width="193"/>
+            <ComboBoxItem Content="뮤지컬" Width="193"/>
+            <ComboBoxItem Content="미스터리" Width="193"/>
+            <ComboBoxItem Content="범죄" Width="193"/>
+            <ComboBoxItem Content="사극" Width="193"/>
+            <ComboBoxItem Content="서부극(웨스턴)" Width="193"/>
+            <ComboBoxItem Content="성인물(에로)" Width="193"/>
+            <ComboBoxItem Content="스릴러" Width="193"/>
+            <ComboBoxItem Content="애니메이션" Width="193"/>
+            <ComboBoxItem Content="액션" Width="193"/>
+            <ComboBoxItem Content="어드벤처" Width="193"/>
+            <ComboBoxItem Content="전쟁" Width="193"/>
+            <ComboBoxItem Content="코미디" Width="193"/>
+            <ComboBoxItem Content="판타지" Width="193"/>
+
+        </ComboBox>
         <Label Content="Grade :" HorizontalAlignment="Left" Margin="12,139,0,0" VerticalAlignment="Top" Grid.ColumnSpan="4"/>
-        <ComboBox HorizontalAlignment="Left" Margin="16,139,0,0" VerticalAlignment="Top" Width="193" Name="gradeCbox" Grid.Column="4"/>
+        <ComboBox HorizontalAlignment="Left" Margin="16,139,0,0" VerticalAlignment="Top" Width="193" Name="gradeCbox" Grid.Column="4">
+            <ComboBoxItem Content="12세이상관람가" Width="193"/>
+            <ComboBoxItem Content="15세이상관람가" Width="193"/>
+            <ComboBoxItem Content="전체관람가" Width="193"/>
+            <ComboBoxItem Content="청소년관람불가" Width="193"/>
+
+        </ComboBox>
         <Label Content="Distributor :" HorizontalAlignment="Left" Margin="12,167,0,0" VerticalAlignment="Top" Grid.ColumnSpan="4"/>
-        <ComboBox HorizontalAlignment="Left" Margin="16,167,0,0" VerticalAlignment="Top" Width="193" Name="distributorCbox" Grid.Column="4"/>
-        <Label Content="Machine Learning Algorithm :" HorizontalAlignment="Left" Margin="12,249,0,0" VerticalAlignment="Top" Grid.ColumnSpan="5"/>
-        <RadioButton Content="One Rule" HorizontalAlignment="Left" Margin="12,270,0,-6" VerticalAlignment="Top" GroupName="mlAlgo" Name="oneRuleRbtn" Grid.ColumnSpan="4"/>
-        <RadioButton Content="Covering Algorithm" HorizontalAlignment="Left" Margin="2,270,0,-6" VerticalAlignment="Top" GroupName="mlAlgo" Name="coveringAlgoRbtn" Grid.Column="4"/>
-        <RadioButton Content="Decision Tree" HorizontalAlignment="Left" Margin="12,292,0,-28" VerticalAlignment="Top" GroupName="mlAlgo" Name="dicisionTreeRbtn" Grid.ColumnSpan="4"/>
-        <RadioButton Content="Naive Baysian" HorizontalAlignment="Left" Margin="2,292,0,-28" VerticalAlignment="Top" GroupName="mlAlgo" Name="naiveBaysianRbtn" Grid.Column="4"/>
-        <GroupBox Header="Result" HorizontalAlignment="Left" Margin="235,29,0,0" VerticalAlignment="Top" Height="213" Width="305" Grid.Column="4"/>
+        <ComboBox HorizontalAlignment="Left" Margin="16,167,0,0" VerticalAlignment="Top" Width="193" Name="distributorCbox" Grid.Column="4">
+            <ComboBoxItem Content="" Width="193"/>
+            <ComboBoxItem Content="(재)전주국제영화제조직위원회" Width="193"/>
+            <ComboBoxItem Content="(주)고맙습니다사랑합니다" Width="193"/>
+            <ComboBoxItem Content="(주)나우콘텐츠" Width="193"/>
+            <ComboBoxItem Content="(주)나이너스엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)넥스트엔터테인먼트월드(NEW)" Width="193"/>
+            <ComboBoxItem Content="(주)노이에스" Width="193"/>
+            <ComboBoxItem Content="(주)누리픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)더블앤조이픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)데이드림서울" Width="193"/>
+            <ComboBoxItem Content="(주)데이지엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)동아수출공사" Width="193"/>
+            <ComboBoxItem Content="(주)두타연" Width="193"/>
+            <ComboBoxItem Content="(주)드림웨스트픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)루믹스미디어" Width="193"/>
+            <ComboBoxItem Content="(주)마노엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)마운틴픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)마인스 엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)머스트 씨 무비" Width="193"/>
+            <ComboBoxItem Content="(주)명필름" Width="193"/>
+            <ComboBoxItem Content="(주)미디어데이" Width="193"/>
+            <ComboBoxItem Content="(주)미디어로그" Width="193"/>
+            <ComboBoxItem Content="(주)미디어이야기" Width="193"/>
+            <ComboBoxItem Content="(주)미디어캐슬" Width="193"/>
+            <ComboBoxItem Content="(주)서태지컴퍼니" Width="193"/>
+            <ComboBoxItem Content="(주)소나무픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)수키픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)스넵쏘울" Width="193"/>
+            <ComboBoxItem Content="(주)스마일이엔티" Width="193"/>
+            <ComboBoxItem Content="(주)스크린와이즈" Width="193"/>
+            <ComboBoxItem Content="(주)시너지하우스 (시너지)" Width="193"/>
+            <ComboBoxItem Content="(주)시네마달" Width="193"/>
+            <ComboBoxItem Content="(주)시네마서비스" Width="193"/>
+            <ComboBoxItem Content="(주)싸이더스에프앤에이치" Width="193"/>
+            <ComboBoxItem Content="(주)씨맥스커뮤니케이션즈" Width="193"/>
+            <ComboBoxItem Content="(주)액티버스엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)에스비에스콘텐츠허브" Width="193"/>
+            <ComboBoxItem Content="(주)에스와이코마드" Width="193"/>
+            <ComboBoxItem Content="(주)에스피엠" Width="193"/>
+            <ComboBoxItem Content="(주)에이브이에이엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)에이블엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)에이씨피컴퍼니" Width="193"/>
+            <ComboBoxItem Content="(주)엠레콘" Width="193"/>
+            <ComboBoxItem Content="(주)엣나인필름" Width="193"/>
+            <ComboBoxItem Content="(주)영진크리에이티브" Width="193"/>
+            <ComboBoxItem Content="(주)영화사 빅" Width="193"/>
+            <ComboBoxItem Content="(주)영화사 조제" Width="193"/>
+            <ComboBoxItem Content="(주)영화사 진진" Width="193"/>
+            <ComboBoxItem Content="(주)영화사조아" Width="193"/>
+            <ComboBoxItem Content="(주)영화사폴" Width="193"/>
+            <ComboBoxItem Content="(주)영화제작전원사" Width="193"/>
+            <ComboBoxItem Content="(주)인디플러그" Width="193"/>
+            <ComboBoxItem Content="(주)인벤트스톤" Width="193"/>
+            <ComboBoxItem Content="(주)인스터피씨엠" Width="193"/>
+            <ComboBoxItem Content="(주)조이앤컨텐츠그룹" Width="193"/>
+            <ComboBoxItem Content="(주)컴퍼니엘" Width="193"/>
+            <ComboBoxItem Content="(주)케빈앤컴퍼니" Width="193"/>
+            <ComboBoxItem Content="(주)케이알씨지" Width="193"/>
+            <ComboBoxItem Content="(주)케이앤엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)키노아이디엠씨" Width="193"/>
+            <ComboBoxItem Content="(주)테라맥스엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)토러스엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)티캐스트" Width="193"/>
+            <ComboBoxItem Content="(주)판다미디어" Width="193"/>
+            <ComboBoxItem Content="(주)팝엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)팝파트너스" Width="193"/>
+            <ComboBoxItem Content="(주)퍼스트런" Width="193"/>
+            <ComboBoxItem Content="(주)프레인글로벌" Width="193"/>
+            <ComboBoxItem Content="(주)프리비젼엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="(주)피터팬픽쳐스" Width="193"/>
+            <ComboBoxItem Content="(주)화앤담이엔티" Width="193"/>
+            <ComboBoxItem Content="(주)화인픽쳐스" Width="193"/>
+            <ComboBoxItem Content="CGV 무비꼴라쥬" Width="193"/>
+            <ComboBoxItem Content="C무비" Width="193"/>
+            <ComboBoxItem Content="KT&amp;G 상상마당 영화사업팀 컴퍼니에스에스(주)" Width="193"/>
+            <ComboBoxItem Content="Yellow Pictures" Width="193"/>
+            <ComboBoxItem Content="㈜T-JOY" Width="193"/>
+            <ComboBoxItem Content="㈜미로비젼" Width="193"/>
+            <ComboBoxItem Content="㈜영화사 백두대간" Width="193"/>
+            <ComboBoxItem Content="㈜월드시네마" Width="193"/>
+            <ComboBoxItem Content="㈜인디스토리" Width="193"/>
+            <ComboBoxItem Content="㈜코리아스크린" Width="193"/>
+            <ComboBoxItem Content="㈜크래커픽쳐스" Width="193"/>
+            <ComboBoxItem Content="골든타이드픽처스(주)" Width="193"/>
+            <ComboBoxItem Content="그린나래미디어(주)" Width="193"/>
+            <ComboBoxItem Content="노바엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="뉴원시네마" Width="193"/>
+            <ComboBoxItem Content="더 필름클래식 프로덕션" Width="193"/>
+            <ComboBoxItem Content="데이브인터랙티브" Width="193"/>
+            <ComboBoxItem Content="도키엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="라인트리엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="롤러코스터" Width="193"/>
+            <ComboBoxItem Content="롯데쇼핑㈜롯데시네마" Width="193"/>
+            <ComboBoxItem Content="롯데쇼핑㈜롯데엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="문화기획집단 영희야놀자" Width="193"/>
+            <ComboBoxItem Content="미디어소프트" Width="193"/>
+            <ComboBoxItem Content="브릿지웍스 엔터테인먼트(주)" Width="193"/>
+            <ComboBoxItem Content="서울독립영화제" Width="193"/>
+            <ComboBoxItem Content="세븐바이투픽쳐스" Width="193"/>
+            <ComboBoxItem Content="소니픽쳐스릴리징월트디즈니스튜디오스코리아(주)" Width="193"/>
+            <ComboBoxItem Content="쇼박스㈜미디어플렉스" Width="193"/>
+            <ComboBoxItem Content="스크린조이" Width="193"/>
+            <ComboBoxItem Content="스턴트코리아" Width="193"/>
+            <ComboBoxItem Content="스튜디오느림보" Width="193"/>
+            <ComboBoxItem Content="시네마 뉴원" Width="193"/>
+            <ComboBoxItem Content="시네마달" Width="193"/>
+            <ComboBoxItem Content="씨너스엔터테인먼트(주)" Width="193"/>
+            <ComboBoxItem Content="씨네21아이(주)" Width="193"/>
+            <ComboBoxItem Content="씨네그루(주)다우기술" Width="193"/>
+            <ComboBoxItem Content="씨제이 씨지브이(CJ CGV)(주)" Width="193"/>
+            <ComboBoxItem Content="씨제이이앤엠 주식회사" Width="193"/>
+            <ComboBoxItem Content="아이제이미디어(주)" Width="193"/>
+            <ComboBoxItem Content="야간비행" Width="193"/>
+            <ComboBoxItem Content="양전프로덕션" Width="193"/>
+            <ComboBoxItem Content="어뮤즈" Width="193"/>
+            <ComboBoxItem Content="얼리버드" Width="193"/>
+            <ComboBoxItem Content="에이원엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="엠투" Width="193"/>
+            <ComboBoxItem Content="영화사 민들레" Width="193"/>
+            <ComboBoxItem Content="영화사 보라" Width="193"/>
+            <ComboBoxItem Content="영화사청어람(주)" Width="193"/>
+            <ComboBoxItem Content="예지림엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="오드" Width="193"/>
+            <ComboBoxItem Content="오퍼스픽쳐스(유)" Width="193"/>
+            <ComboBoxItem Content="워너브러더스코리아(주)" Width="193"/>
+            <ComboBoxItem Content="유니버설픽쳐스인터내셔널 코리아(유)" Width="193"/>
+            <ComboBoxItem Content="이미지팩토리" Width="193"/>
+            <ComboBoxItem Content="이상우 필름" Width="193"/>
+            <ComboBoxItem Content="이십세기폭스코리아(주)" Width="193"/>
+            <ComboBoxItem Content="익스트림 필름" Width="193"/>
+            <ComboBoxItem Content="찬란" Width="193"/>
+            <ComboBoxItem Content="케이비에스미디어(주)" Width="193"/>
+            <ComboBoxItem Content="크리에이티브컴즈(주)" Width="193"/>
+            <ComboBoxItem Content="타임스토리그룹(주)" Width="193"/>
+            <ComboBoxItem Content="판씨네마㈜" Width="193"/>
+            <ComboBoxItem Content="팝엔터테인먼트" Width="193"/>
+            <ComboBoxItem Content="페퍼민트픽쳐스" Width="193"/>
+            <ComboBoxItem Content="포커스 온" Width="193"/>
+            <ComboBoxItem Content="프로젝트 엠피" Width="193"/>
+            <ComboBoxItem Content="필라멘트픽쳐스" Width="193"/>
+            <ComboBoxItem Content="한국소니픽쳐스릴리징브에나비스타영화㈜" Width="193"/>
+            <ComboBoxItem Content="" Width="193"/>        </ComboBox>
+        <Label Content="Machine Learning Algorithm :" HorizontalAlignment="Left" Margin="12,23,0,0" VerticalAlignment="Top" Grid.ColumnSpan="5" Grid.Row="1"/>
+        <RadioButton Content="Covering Algorithm" HorizontalAlignment="Left" Margin="2,44,0,-6" VerticalAlignment="Top" GroupName="mlAlgo" Name="coveringAlgoRbtn" Grid.Column="4" Grid.Row="1"/>
+        <RadioButton Content="Decision Tree" HorizontalAlignment="Left" Margin="12,44,0,-6" VerticalAlignment="Top" GroupName="mlAlgo" Name="dicisionTreeRbtn" Grid.ColumnSpan="4" Grid.Row="1"/>
+        <GroupBox Header="Result" HorizontalAlignment="Left" Margin="235,29,0,0" VerticalAlignment="Top" Height="213" Width="305" Grid.Column="4" Grid.RowSpan="2"/>
         <Label Content="Result나올라벨" HorizontalAlignment="Left" Margin="259,67,0,0" VerticalAlignment="Top" Name="resultLbl" Grid.Column="4"/>
-        <Label Content="Accuracy : " HorizontalAlignment="Left" Margin="235,249,0,0" VerticalAlignment="Top" Grid.Column="4"/>
+        <Label Content="Accuracy : " HorizontalAlignment="Left" Margin="235,23,0,0" VerticalAlignment="Top" Grid.Column="4" Grid.Row="1"/>
 
     </Grid>
 </UserControl>

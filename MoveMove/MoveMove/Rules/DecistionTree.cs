@@ -7,7 +7,6 @@ namespace MoveMove.Rules
 {
     class DecistionTree
     {
-
         static public string get(string 감독, string 계절, string 제작사, string 장르, string 관람등급, string 배급사)
         {
             string res = "";
