@@ -9,7 +9,7 @@
     <mui:ModernWindow.MenuLinkGroups>
         <mui:LinkGroup DisplayName="Movie Classifier">
             <mui:LinkGroup.Links>
-                <mui:Link DisplayName="가운데정렬짜증" Source="/Pages/MainView.xaml" />
+                <mui:Link DisplayName="Classifier" Source="/Pages/MainView.xaml" />
             </mui:LinkGroup.Links>
         </mui:LinkGroup>
         <mui:LinkGroup DisplayName="settings" GroupKey="settings">

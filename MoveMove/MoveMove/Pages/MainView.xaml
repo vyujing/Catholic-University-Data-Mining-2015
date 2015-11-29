@@ -1002,10 +1002,10 @@
         </ComboBox>
         <Label Content="Season :" HorizontalAlignment="Left" Margin="12,57,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.894,1.128" Grid.ColumnSpan="4"/>
         <ComboBox HorizontalAlignment="Left" Margin="16,58,0,0" VerticalAlignment="Top" Width="193" Name="seasonCbox" Grid.Column="4">
-        <ComboBoxItem Content="봄" Width="193"/>
-        <ComboBoxItem Content="여름" Width="193"/>
-        <ComboBoxItem Content="가을" Width="193"/>
-        <ComboBoxItem Content="겨울" Width="193"/>
+            <ComboBoxItem Content="봄" Width="193"/>
+            <ComboBoxItem Content="여름" Width="193"/>
+            <ComboBoxItem Content="가을" Width="193"/>
+            <ComboBoxItem Content="겨울" Width="193"/>
         </ComboBox>
         <Label Content="Production Company :" HorizontalAlignment="Left" Margin="12,85,0,0" VerticalAlignment="Top" Grid.ColumnSpan="5"/>
         <ComboBox HorizontalAlignment="Left" Margin="16,85,0,0" VerticalAlignment="Top" Width="193" Name="productionCompanyCbox" Grid.Column="4">
@@ -1566,13 +1566,15 @@
             <ComboBoxItem Content="프로젝트 엠피" Width="193"/>
             <ComboBoxItem Content="필라멘트픽쳐스" Width="193"/>
             <ComboBoxItem Content="한국소니픽쳐스릴리징브에나비스타영화㈜" Width="193"/>
-            <ComboBoxItem Content="" Width="193"/>        </ComboBox>
+            <ComboBoxItem Content="" Width="193"/>
+        </ComboBox>
         <Label Content="Machine Learning Algorithm :" HorizontalAlignment="Left" Margin="12,23,0,0" VerticalAlignment="Top" Grid.ColumnSpan="5" Grid.Row="1"/>
         <RadioButton Content="Covering Algorithm" HorizontalAlignment="Left" Margin="2,44,0,-6" VerticalAlignment="Top" GroupName="mlAlgo" Name="coveringAlgoRbtn" Grid.Column="4" Grid.Row="1"/>
         <RadioButton Content="Decision Tree" HorizontalAlignment="Left" Margin="12,44,0,-6" VerticalAlignment="Top" GroupName="mlAlgo" Name="dicisionTreeRbtn" Grid.ColumnSpan="4" Grid.Row="1"/>
         <GroupBox Header="Result" HorizontalAlignment="Left" Margin="235,29,0,0" VerticalAlignment="Top" Height="213" Width="305" Grid.Column="4" Grid.RowSpan="2"/>
-        <Label Content="Result나올라벨" HorizontalAlignment="Left" Margin="259,67,0,0" VerticalAlignment="Top" Name="resultLbl" Grid.Column="4"/>
-        <Label Content="Accuracy : " HorizontalAlignment="Left" Margin="235,23,0,0" VerticalAlignment="Top" Grid.Column="4" Grid.Row="1"/>
+        <Label Content="" HorizontalAlignment="Left" Margin="259,67,0,0" VerticalAlignment="Top" Name="resultLbl" Grid.Column="4"/>
+        <Label Content="Accuracy : " HorizontalAlignment="Left" Margin="235,23,0,0" VerticalAlignment="Top" Grid.Column="4" Grid.Row="1" Name="accuracy"/>
+        <Button Content="Classify" Grid.Column="4" HorizontalAlignment="Left" Height="51" Margin="167,65,0,-61" Grid.Row="1" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
 
     </Grid>
 </UserControl>
