@@ -21,6 +21,6 @@
     
     <mui:ModernWindow.TitleLinks>
         <mui:Link DisplayName="settings" Source="/Pages/SettingsPage.xaml" />
-        <mui:Link DisplayName="help" Source="http://mui.codeplex.com" />
+        <mui:Link DisplayName="help" Source="https://github.com/vyujing/Catholic-University-Data-Mining-2015" />
     </mui:ModernWindow.TitleLinks>
 </mui:ModernWindow>

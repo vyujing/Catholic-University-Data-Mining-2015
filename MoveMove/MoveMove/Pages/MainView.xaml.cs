@@ -51,7 +51,7 @@ namespace MoveMove.Pages
             if (director == "" || season == "" || production == "" || genre == "" || grade== "" || distributor== "")
             {
                 MessageBox.Show("You must fill in all of the fields!", "MOVE Error!",
-                                 MessageBoxButton.YesNo,
+                                 MessageBoxButton.OK,
                                  MessageBoxImage.Error);
                 return;
             }
@@ -129,6 +129,59 @@ namespace MoveMove.Pages
                 grade.Items.Add(s);
             foreach (string s in strc_distributor)
                 distributor.Items.Add(s);
+        }
+
+        private void Button_Click2(object sender, RoutedEventArgs e)
+        {
+            WebBrowser wb = new WebBrowser();
+            string director = ((ComboBox)this.FindName("directorCbox")).Text;
+            string season = ((ComboBox)this.FindName("seasonCbox")).Text;
+            string production = ((ComboBox)this.FindName("productionCompanyCbox")).Text;
+            string genre = ((ComboBox)this.FindName("genreCbox")).Text;
+            string grade = ((ComboBox)this.FindName("gradeCbox")).Text;
+            string distributor = ((ComboBox)this.FindName("distributorCbox")).Text;
+            if (director == "" || season == "" || production == "" || genre == "" || grade== "" || distributor== "")
+            {
+                MessageBox.Show("You must fill in all of the fields!", "MOVE Error!",
+                                 MessageBoxButton.OK,
+                                 MessageBoxImage.Error);
+                return;
+            }
+
+            RadioButton dicision = (RadioButton)this.FindName("dicisionTreeRbtn");
+            RadioButton covering = (RadioButton)this.FindName("coveringAlgoRbtn");
+            if(covering.IsChecked == true)
+            {
+                string s = Covering.get(director, season, production, genre, grade, distributor);
+                MessageBoxResult b = MessageBox.Show(Covering.rule + "\n If you want to read whole rule\n Press yes button.", "Result",
+                                     MessageBoxButton.YesNo,
+                                     MessageBoxImage.Information);
+                if(b == MessageBoxResult.Yes)
+                {
+                    try
+                    {
+                        System.Diagnostics.Process.Start("http://uyu423.iptime.org/~vyujing/DM/i2.html");
+                    }
+                    catch { }
+                }
+            }
+
+            if(dicision.IsChecked == true)
+            {
+                string s = DecistionTree.get(director, season, production, genre, grade, distributor);
+                MessageBoxResult b = MessageBox.Show(DecistionTree.rule, "Result",
+                                     MessageBoxButton.YesNo,
+                                     MessageBoxImage.Information);
+                if (b == MessageBoxResult.Yes)
+                {
+                    try
+                    {
+                        System.Diagnostics.Process.Start("http://uyu423.iptime.org/~vyujing/DM/i1.html");
+                    }
+                    catch { }
+                }
+            }
+            return;
         }
     }
 }

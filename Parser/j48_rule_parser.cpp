@@ -35,30 +35,15 @@ int getBarNum(string s)
 
 string getCond1(string s)
 {
-	cout << s << endl;
-	int i = 3;
-	string res = "";
-	for (; i < s.size(); i++)
-	{
-		if (s[i] != '=')
-			res += s[i];
-		else
-			break;
-	}
-	return trim(res);
-}
-string getCond2ex(string s)
-{
 	int i = 0;
 	for (i = 0; i < s.size(); i++)
 	{
-		if (s[i] != '=')
+		if (s[i] == ' ' || s[i] == '|')
 			continue;
 		break;
 	}
-	i++;
 	string res = "";
-	for (; i < s.size(); i++)
+	for (; i < s.size() && s[i] != '='; i++)
 		res += s[i];
 	return trim(res);
 }
@@ -74,7 +59,7 @@ string getCond2(string s)
 	}
 	i++;
 	string res = "";
-	for (; i < s.size() && s[i] != 't' && s[i + 1] != 'h' && s[i+2] != 'e' && s[i+3] != 'n'; i++)
+	for (; i < s.size() && s[i] != ':'; i++)
 		res += s[i];
 	return trim(res);
 }
@@ -84,17 +69,13 @@ string getStmt(string s)
 	int i = 0;
 	for (i = 0; i < s.size(); i++)
 	{
-		if (s[i] != 't'
-			&& s[i+1] != 'h'
-			&& s[i+2] != 'e'
-			&& s[i+3] != 'n'
-			)
+		if (s[i] != ':')
 			continue;
 		break;
 	}
-	i+=4;
+	i++;
 	string res = "";
-	for (;  i < s.size(); i++)
+	for (; i < s.size() && s[i] != '('; i++)
 		res += s[i];
 	return trim(res);
 }
@@ -108,60 +89,42 @@ bool isColon(string s)
 	return false;
 }
 
-bool hasThen(string s)
-{
-	try
-	{
-		for (int i = 0; i < s.size() - 4; i++)
-		{
-			if (s[i] == 't'
-				&& s[i + 1] == 'h'
-				&& s[i + 2] == 'e'
-				&& s[i + 3] == 'n'
-				)
-				return true;
-		}
-		return false;
-	}
-	catch (exception e)
-	{
-		return false;
-	}
-}
-
 void parse(int depth)
 {
 	bool f = false;
-	while (ip < v.size() - 1)
+	while (ip < v.size())
 	{
+		int barN = getBarNum(v[ip]);
+		if (barN < depth)
+			return;
 		string cond1 = getCond1(v[ip]);
-		string cond2, stmt;
-		if (hasThen(v[ip]))
+		string cond2 = getCond2(v[ip]);
+		//cout <<"\""<< cond1 <<"\""<< endl;
+		//cout <<"\""<< cond2 <<"\""<< endl;
+		if (isColon(v[ip]))
 		{
-			cond2 = getCond2(v[ip]);
-			stmt = getStmt(v[ip]);
-			fprintf(fp, "if(%s == \"%s\")\n", cond1.c_str(), cond2.c_str());
-			fprintf(fp, "res += \"%s\\n\";\n", stmt.c_str());
+			string stmt = getStmt(v[ip++]).c_str();
+			if (f)
+				fprintf(fp, "else if(%s == \"%s\")\n{\n", cond1.c_str(), cond2.c_str());
+			else
+				fprintf(fp, "if(%s == \"%s\")\n{\n", cond1.c_str(), cond2.c_str());
+			fprintf(fp, "rule += \"If %s is %s -> \";", cond1.c_str(), cond2.c_str());
+			fprintf(fp, "\tres+=\"%s\\n\";\n", stmt.c_str());
+			fprintf(fp, "\trule+=\"%s\\n\";\n", stmt.c_str());
+			fprintf(fp, "}\n");
 		}
 		else
 		{
-			cond2 = getCond2ex(v[ip]);
-			fprintf(fp, "if(%s == \"%s\"\n", cond1.c_str(), cond2.c_str());
 			ip++;
-			while (!hasThen(v[ip]))
-			{
-				cond1 = getCond1(v[ip]);
-				cond2 = getCond2ex(v[ip]);
-				fprintf(fp, "&& %s == \"%s\"\n", cond1.c_str(), cond2.c_str());
-				ip++;
-			}
-			cond1 = getCond1(v[ip]);
-			cond2 = getCond2(v[ip]);
-			stmt = getStmt(v[ip]);
-			fprintf(fp, "&& %s == \"%s\")\n", cond1.c_str(), cond2.c_str());
-			fprintf(fp, "res += \"%s\\n\";\n", stmt.c_str());
+			if (f)
+				fprintf(fp, "else if(%s == \"%s\")\n{\n", cond1.c_str(), cond2.c_str());
+			else
+				fprintf(fp, "if(%s == \"%s\")\n{\n", cond1.c_str(), cond2.c_str());
+			fprintf(fp, "rule += \"If %s is %s -> \";", cond1.c_str(), cond2.c_str());
+			parse(depth + 1);
+			fprintf(fp, "}\n");
 		}
-		ip++;
+		f = true;
 	}
 }
 
@@ -171,7 +134,7 @@ int main()
 	string s;
 	while (!cin.eof()) {
 		getline(cin, s, '\n');
-		v.emplace_back(trim(s));
+		v.emplace_back(s);
 	}
 	parse(0);
 }

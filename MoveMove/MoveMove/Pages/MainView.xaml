@@ -42,7 +42,8 @@
         <GroupBox Header="Result" HorizontalAlignment="Left" Margin="235,29,0,0" VerticalAlignment="Top" Height="213" Width="305" Grid.Column="4" Grid.RowSpan="2"/>
         <Label Content="" HorizontalAlignment="Left" Margin="259,67,0,0" VerticalAlignment="Top" Name="resultLbl" Grid.Column="4"/>
         <Label Content="Accuracy : " HorizontalAlignment="Left" Margin="235,23,0,0" VerticalAlignment="Top" Grid.Column="4" Grid.Row="1" Name="accuracy"/>
-        <Button Content="Classify" Grid.Column="4" HorizontalAlignment="Left" Height="51" Margin="167,65,0,-61" Grid.Row="1" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
+        <Button Content="Classify" Grid.Column="4" HorizontalAlignment="Left" Height="51" Margin="107,66,0,-62" Grid.Row="1" VerticalAlignment="Top" Width="88" Click="Button_Click"/>
+        <Button Content="Rules" Grid.Column="4" HorizontalAlignment="Left" Height="51" Margin="235,65,0,-61" Grid.Row="1" VerticalAlignment="Top" Width="88" Click="Button_Click2"/>
 
     </Grid>
 </UserControl>
